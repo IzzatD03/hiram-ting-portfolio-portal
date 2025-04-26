@@ -85,55 +85,32 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Academic Positions */}
-      <section id="about" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-red-500 font-medium mb-4">Academic Journey</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12">
-            Academic Positions
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {positions.map((position, index) => (
-              <Card 
-                key={index} 
-                className="p-8 hover:shadow-lg transition-all duration-300 bg-[#fff5f5] border-none"
-              >
-                <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                  <Briefcase className="w-6 h-6 text-red-500" />
-                </div>
-                <div className="space-y-3">
-                  <p className="text-red-500 text-sm">{position.duration}</p>
-                  <h3 className="font-bold text-xl text-gray-900">{position.title}</h3>
-                  <p className="text-gray-600">{position.institution}</p>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Publications & Research */}
       <section id="publications" className="py-20 bg-[#f8f9fc]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-red-500 font-medium mb-4">Latest Work</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12">
-            Publications & Research
+          <p className="text-red-500 font-medium mb-2">My Publications</p>
+          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-16 font-playfair">
+            Recent Research
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="space-y-12">
             {publications.map((pub, index) => (
-              <Card 
-                key={index} 
-                className="p-8 hover:shadow-lg transition-all duration-300 bg-white border-none"
+              <div 
+                key={index}
+                className="group flex flex-col md:flex-row gap-8 items-start hover:bg-white p-8 rounded-2xl transition-all duration-300"
               >
-                <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                  <Book className="w-6 h-6 text-red-500" />
+                <div className="shrink-0">
+                  <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center group-hover:bg-red-500 transition-colors duration-300">
+                    <Book className="w-8 h-8 text-red-500 group-hover:text-white transition-colors duration-300" />
+                  </div>
                 </div>
-                <div className="space-y-3">
-                  <p className="text-red-500 text-sm">{pub.year}</p>
-                  <h3 className="font-bold text-xl text-gray-900 line-clamp-2">{pub.title}</h3>
-                  <p className="text-gray-600 line-clamp-3">{pub.description}</p>
+                <div className="space-y-4">
+                  <p className="text-red-500 text-sm font-medium">{pub.year}</p>
+                  <h3 className="text-2xl font-bold text-gray-900">{pub.title}</h3>
+                  <p className="text-gray-600 max-w-2xl leading-relaxed">
+                    {pub.description}
+                  </p>
                 </div>
-              </Card>
+              </div>
             ))}
           </div>
         </div>
@@ -159,6 +136,33 @@ const Index = () => {
               <h3 className="font-bold mb-2">Location</h3>
               <p className="text-gray-600">Malaysia</p>
             </Card>
+          </div>
+        </div>
+      </section>
+    
+      {/* Academic Positions */}
+      <section id="about" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-red-500 font-medium mb-4">Academic Journey</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12">
+            Academic Positions
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {positions.map((position, index) => (
+              <Card 
+                key={index} 
+                className="p-8 hover:shadow-lg transition-all duration-300 bg-[#fff5f5] border-none"
+              >
+                <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                  <Briefcase className="w-6 h-6 text-red-500" />
+                </div>
+                <div className="space-y-3">
+                  <p className="text-red-500 text-sm">{position.duration}</p>
+                  <h3 className="font-bold text-xl text-gray-900">{position.title}</h3>
+                  <p className="text-gray-600">{position.institution}</p>
+                </div>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
