@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -103,7 +104,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {positions.map((position, index) => (
               <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
-                <briefcase className="w-8 h-8 text-primary mb-4" />
+                <Briefcase className="w-8 h-8 text-primary mb-4" />
                 <h3 className="font-bold text-lg mb-2">{position.title}</h3>
                 <p className="text-gray-600">{position.institution}</p>
               </Card>
@@ -119,7 +120,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             {publications.map((pub, index) => (
               <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
-                <book className="w-8 h-8 text-primary mb-4" />
+                <Book className="w-8 h-8 text-primary mb-4" />
                 <h3 className="font-bold text-lg mb-2">{pub.title}</h3>
                 <p className="text-gray-600 mb-4">{pub.description}</p>
                 <p className="text-sm text-gray-500">{pub.year}</p>
@@ -135,17 +136,17 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-primary mb-12 text-center font-playfair">Contact</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-6 text-center">
-              <mail className="w-8 h-8 mx-auto text-primary mb-4" />
+              <Mail className="w-8 h-8 mx-auto text-primary mb-4" />
               <h3 className="font-bold mb-2">Email</h3>
               <p className="text-gray-600">hiramparousia@gmail.com</p>
             </Card>
             <Card className="p-6 text-center">
-              <phone className="w-8 h-8 mx-auto text-primary mb-4" />
+              <Phone className="w-8 h-8 mx-auto text-primary mb-4" />
               <h3 className="font-bold mb-2">WhatsApp</h3>
               <p className="text-gray-600">+6018-365 3472</p>
             </Card>
             <Card className="p-6 text-center">
-              <globe className="w-8 h-8 mx-auto text-primary mb-4" />
+              <Globe className="w-8 h-8 mx-auto text-primary mb-4" />
               <h3 className="font-bold mb-2">Location</h3>
               <p className="text-gray-600">Malaysia</p>
             </Card>
