@@ -30,7 +30,14 @@ const Index = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden animate-fade-in">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent" />
-              <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800')] bg-cover bg-center" />
+              <div 
+                className="w-full h-full bg-cover bg-center" 
+                style={{
+                  backgroundImage: 'url(/lovable-uploads/5cb67990-fbec-4044-85e1-b60d7c1a53e4.png)',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }} 
+              />
             </div>
           </div>
         </div>
