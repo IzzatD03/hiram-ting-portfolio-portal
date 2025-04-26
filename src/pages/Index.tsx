@@ -34,7 +34,7 @@ const Index = () => {
               <div 
                 className="w-full h-full bg-cover bg-center" 
                 style={{
-                  backgroundImage: 'url(/lovable-uploads/5cb67990-fbec-4044-85e1-b60d7c1a53e4.png)',
+                  backgroundImage: 'url(/lovable-uploads/2dac7cea-ed94-42ce-a4ae-69928dc9db2a.png)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center'
                 }} 
