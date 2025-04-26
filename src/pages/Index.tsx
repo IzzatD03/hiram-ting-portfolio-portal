@@ -1,8 +1,7 @@
-
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { award, book, briefcase, globe, mail, phone } from "lucide-react";
+import { Award, Book, Briefcase, Globe, Mail, Phone } from "lucide-react";
 
 const Index = () => {
   return (
@@ -32,6 +31,59 @@ const Index = () => {
             <div className="relative h-[400px] rounded-lg overflow-hidden animate-fade-in">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent" />
               <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800')] bg-cover bg-center" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Biodata Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-[1fr_2fr] gap-8 items-start">
+            {/* Left Column - Highlights */}
+            <div className="space-y-6">
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <Award className="w-8 h-8 text-primary mb-4" />
+                <h3 className="font-bold text-lg mb-2">First Ambassador</h3>
+                <p className="text-gray-600">Emerald Publishing in East Asia</p>
+              </Card>
+              <Card className="p-6 hover:shadow-lg transition-shadow">
+                <Globe className="w-8 h-8 text-primary mb-4" />
+                <h3 className="font-bold text-lg mb-2">UN Tourism Expert</h3>
+                <p className="text-gray-600">First Malaysian in UN Tourism Panel</p>
+              </Card>
+            </div>
+
+            {/* Right Column - Main Bio */}
+            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+              <h2 className="text-3xl font-bold text-primary mb-6 font-playfair">Biography</h2>
+              <div className="prose prose-lg max-w-none text-gray-600 space-y-4">
+                <p>
+                  Dr Hiram is the Director of Responsible Borneo (REBORN) and Chairman of Sarawak Research Society. He is attached to i-CATS University College Sarawak in Malaysia as a Professor.
+                </p>
+                <p>
+                  He is affiliated with several universities abroad, including Wakayama University in Japan and Polytechnic University of the Philippines.
+                </p>
+                <p>
+                  As Editor-in-Chief, he oversees multiple prestigious journals:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Young Consumers</li>
+                  <li>Journal of Applied Structural Equation Modeling (JASEM)</li>
+                  <li>Responsible Tourism Management (JRTM)</li>
+                  <li>Asian Journal of Business Research (AJBR)</li>
+                </ul>
+                <p>
+                  His research appears in reputable journals including European Journal of Marketing, Tourism Management, and International Journal of Contemporary Hospitality Management.
+                </p>
+                <p>
+                  Driven by his passion for youth and responsible tourism, he founded:
+                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li>Southeast Asia Research Academy (SEARA)</li>
+                  <li>International Centre for Responsible Tourism in Southeast Asia (ICRT-SEA)</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
