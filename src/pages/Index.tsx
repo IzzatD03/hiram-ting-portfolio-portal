@@ -102,7 +102,7 @@ const Index = () => {
                   <Briefcase className="w-6 h-6 text-red-500" />
                 </div>
                 <div className="space-y-3">
-                  <p className="text-red-500 text-sm">{position.duration || '2020-Present'}</p>
+                  <p className="text-red-500 text-sm">{position.duration}</p>
                   <h3 className="font-bold text-xl text-gray-900">{position.title}</h3>
                   <p className="text-gray-600">{position.institution}</p>
                 </div>
@@ -170,26 +170,32 @@ const positions = [
   {
     title: "Adjunct Professor",
     institution: "Taylor's University, Malaysia",
+    duration: "2020-Present"
   },
   {
     title: "Adjunct Professor",
     institution: "Sohar University, Oman",
+    duration: "2019-Present"
   },
   {
     title: "Visiting Professor",
     institution: "Krirk University, Thailand",
+    duration: "2021-Present"
   },
   {
     title: "Chairman",
     institution: "Sarawak Research Society",
+    duration: "2018-Present"
   },
   {
     title: "Director",
     institution: "Centre for Responsible Borneo (REBORN)",
+    duration: "2019-Present"
   },
   {
     title: "Editor-in-Chief",
     institution: "Journal of Responsible Tourism Management",
+    duration: "2020-Present"
   },
 ];
 
