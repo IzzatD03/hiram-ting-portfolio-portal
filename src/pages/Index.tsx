@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -140,23 +141,36 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-primary mb-12 text-center font-playfair">Contact</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="p-6 text-center">
-              <Mail className="w-8 h-8 mx-auto text-primary mb-4" />
-              <h3 className="font-bold mb-2">Email</h3>
+      <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold font-playfair text-[#1A1F2C] mb-4">
+              Contact
+            </h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all p-10 flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-[#f8f9fc] rounded-full flex items-center justify-center mb-6">
+                <Mail className="w-8 h-8 text-[#1A1F2C]" />
+              </div>
+              <h3 className="text-2xl font-bold font-playfair mb-3">Email</h3>
               <p className="text-gray-600">hiramparousia@gmail.com</p>
             </Card>
-            <Card className="p-6 text-center">
-              <Phone className="w-8 h-8 mx-auto text-primary mb-4" />
-              <h3 className="font-bold mb-2">WhatsApp</h3>
+            
+            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all p-10 flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-[#f8f9fc] rounded-full flex items-center justify-center mb-6">
+                <Phone className="w-8 h-8 text-[#1A1F2C]" />
+              </div>
+              <h3 className="text-2xl font-bold font-playfair mb-3">WhatsApp</h3>
               <p className="text-gray-600">+6018-365 3472</p>
             </Card>
-            <Card className="p-6 text-center">
-              <Globe className="w-8 h-8 mx-auto text-primary mb-4" />
-              <h3 className="font-bold mb-2">Location</h3>
+            
+            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all p-10 flex flex-col items-center text-center">
+              <div className="w-16 h-16 bg-[#f8f9fc] rounded-full flex items-center justify-center mb-6">
+                <Globe className="w-8 h-8 text-[#1A1F2C]" />
+              </div>
+              <h3 className="text-2xl font-bold font-playfair mb-3">Location</h3>
               <p className="text-gray-600">Malaysia</p>
             </Card>
           </div>
