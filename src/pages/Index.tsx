@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -10,34 +9,40 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section id="home" className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-[#f8f9fc]">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="animate-fade-in">
-              <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4 font-playfair">
+            <div className="space-y-6">
+              <p className="text-red-500 font-medium">Scholar & Expert in Marketing</p>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
+                I'm Professor
+                <br /> 
                 Dr. Hiram Ting
               </h1>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-lg text-gray-600 max-w-lg">
                 Malaysian Scholar & Expert in Marketing, Tourism, and Responsible Business Practices
               </p>
-              <div className="space-x-4">
-                <Button asChild>
-                  <a href="#contact">Contact Me</a>
+              <div className="flex items-center gap-6 pt-4">
+                <Button className="bg-red-500 hover:bg-red-600 text-white px-8">
+                  Contact Me
                 </Button>
-                <Button variant="outline" asChild>
-                  <a href="#publications">View Publications</a>
-                </Button>
+                <button className="flex items-center gap-2 text-gray-600 hover:text-red-500 transition-colors">
+                  <div className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center">
+                    ▶
+                  </div>
+                  <span>Watch Video</span>
+                </button>
               </div>
             </div>
-            <div className="relative h-[400px] rounded-lg overflow-hidden animate-fade-in">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent" />
+            <div className="relative">
+              <div className="absolute -right-4 -top-4 w-[500px] h-[500px] bg-red-500 rounded-full" />
               <div 
-                className="w-full h-full bg-cover bg-center" 
+                className="relative w-full h-[500px] bg-cover bg-center rounded-2xl overflow-hidden"
                 style={{
                   backgroundImage: 'url(/lovable-uploads/2dac7cea-ed94-42ce-a4ae-69928dc9db2a.png)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center'
-                }} 
+                }}
               />
             </div>
           </div>
@@ -45,53 +50,36 @@ const Index = () => {
       </section>
 
       {/* Biodata Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-[1fr_2fr] gap-8 items-start">
-            {/* Left Column - Highlights */}
-            <div className="space-y-6">
-              <Card className="p-6 hover:shadow-lg transition-shadow">
-                <Award className="w-8 h-8 text-primary mb-4" />
-                <h3 className="font-bold text-lg mb-2">First Ambassador</h3>
-                <p className="text-gray-600">Emerald Publishing in East Asia</p>
-              </Card>
-              <Card className="p-6 hover:shadow-lg transition-shadow">
-                <Globe className="w-8 h-8 text-primary mb-4" />
-                <h3 className="font-bold text-lg mb-2">UN Tourism Expert</h3>
-                <p className="text-gray-600">First Malaysian in UN Tourism Panel</p>
-              </Card>
-            </div>
-
-            {/* Right Column - Main Bio */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
-              <h2 className="text-3xl font-bold text-primary mb-6 font-playfair">Biography</h2>
-              <div className="prose prose-lg max-w-none text-gray-600 space-y-4">
-                <p>
-                  Dr Hiram is the Director of Responsible Borneo (REBORN) and Chairman of Sarawak Research Society. He is attached to i-CATS University College Sarawak in Malaysia as a Professor.
-                </p>
-                <p>
-                  He is affiliated with several universities abroad, including Wakayama University in Japan and Polytechnic University of the Philippines.
-                </p>
-                <p>
-                  As Editor-in-Chief, he oversees multiple prestigious journals:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Young Consumers</li>
-                  <li>Journal of Applied Structural Equation Modeling (JASEM)</li>
-                  <li>Responsible Tourism Management (JRTM)</li>
-                  <li>Asian Journal of Business Research (AJBR)</li>
-                </ul>
-                <p>
-                  His research appears in reputable journals including European Journal of Marketing, Tourism Management, and International Journal of Contemporary Hospitality Management.
-                </p>
-                <p>
-                  Driven by his passion for youth and responsible tourism, he founded:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Southeast Asia Research Academy (SEARA)</li>
-                  <li>International Centre for Responsible Tourism in Southeast Asia (ICRT-SEA)</li>
-                </ul>
+          <div className="grid md:grid-cols-2 gap-16 items-start">
+            <div>
+              <p className="text-red-500 font-medium mb-4">About Me</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-8">
+                Designing
+                <br />
+                With Passion
+                <br />
+                While Exploring
+                <br />
+                The World
+              </h2>
+              <div className="flex gap-6">
+                <Button className="bg-red-500 hover:bg-red-600">
+                  Download CV
+                </Button>
+                <Button variant="outline">
+                  My Process
+                </Button>
               </div>
+            </div>
+            <div className="space-y-6 text-gray-600">
+              <p className="leading-relaxed">
+                I specialize in marketing research and responsible tourism practices, leading academic initiatives and research teams across Southeast Asia. I enjoy creating impactful research that bridges theory and practice, contributing to both academic knowledge and industry development.
+              </p>
+              <p className="leading-relaxed">
+                As the Director of Responsible Borneo (REBORN) and Chairman of Sarawak Research Society, I work towards sustainable tourism development and responsible business practices in the region.
+              </p>
             </div>
           </div>
         </div>
