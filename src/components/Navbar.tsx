@@ -7,12 +7,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Publications', href: '#publications' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '#' }, // Top of the page
+    { name: 'About', href: '#about' }, // Academic Positions section
+    { name: 'Position', href: '#position' },
+    { name: 'Publications', href: '#publications' }, // Publications & Research section
+    { name: 'Contact', href: '#contact' }, // Contact section
   ];
+  
 
   return (
     <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">

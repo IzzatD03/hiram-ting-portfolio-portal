@@ -3,8 +3,24 @@ import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Award, Book, Briefcase, Globe, Mail, Phone, Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
+import { useEffect } from "react";
+
 
 const Index = () => {
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-up-visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    const elements = document.querySelectorAll('.fade-up');
+    elements.forEach(el => observer.observe(el));
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
@@ -59,20 +75,23 @@ const Index = () => {
       </section>
 
       {/* Biodata Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white fade-up">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-start">
             <div>
               <p className="text-red-500 font-medium mb-4">About Me</p>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-8">
-                Designing
+                A Passionate Sarawakian
                 <br />
-                With Passion
+                and Global Citizen
                 <br />
-                While Exploring
+                Driven by Curiosity,
                 <br />
-                The World
+                Responsibility and
+                <br />
+                Value Co-creation
               </h2>
+
               <div className="flex gap-6">
                 {/* <Button className="bg-red-500 hover:bg-red-600">
                   Download CV
@@ -82,12 +101,18 @@ const Index = () => {
                 </Button> */}
               </div>
             </div>
-            <div className="space-y-6 text-gray-600">
+            <div className="space-y-6 text-gray-600 text-justify">
               <p className="leading-relaxed">
-                I specialize in marketing research and responsible tourism practices, leading academic initiatives and research teams across Southeast Asia. I enjoy creating impactful research that bridges theory and practice, contributing to both academic knowledge and industry development.
+                Dr. Hiram is the Director of Responsible Borneo (REBORN) and Chairman of Sarawak Research Society. He is attached to i-CATS University College Sarawak in Malaysia as a Professor. He is also affiliated to several universities abroad at different capacities, including Wakayama University in Japan and Polytechnic University of the Philippines in the Philippines. 
               </p>
               <p className="leading-relaxed">
-                As the Director of Responsible Borneo (REBORN) and Chairman of Sarawak Research Society, I work towards sustainable tourism development and responsible business practices in the region.
+                He serves as the Editor-in-Chief of Young Consumers, Journal of Applied Structural Equation Modeling (JASEM), Responsible Tourism Management (JRTM), and Asian Journal of Business Research (AJBR). His papers are published in reputable journals such as European Journal of Marketing, Tourism Management, International Journal of Contemporary Hospitality Management, Journal of Retailing and Consumer Services, and Internet Research. 
+              </p>
+              <p className="leading-relaxed">
+                Dr. Hiram has guest-edited more than 20 special issues related to marketing, consumer behaviour, tourism, and hospitality. Driven by his passion for youth, community engagement, and responsible tourism, he founded the Southeast Asia Research Academy (SEARA) and the International Centre for Responsible Tourism in Southeast Asia (ICRT-SEA). 
+              </p>
+              <p className="leading-relaxed">
+                He is the first Ambassador of Emerald Publishing in East Asia and the first Malaysian included in the UN Tourism (formerly UNWTO) Panel of Tourism Experts. He can be contacted at: <a href="mailto:hiramparousia@gmail.com" className="text-red-500 hover:underline">hiramparousia@gmail.com</a>.
               </p>
             </div>
           </div>
@@ -95,7 +120,7 @@ const Index = () => {
       </section>
 
       {/* Academic Positions */}
-      <section id="about" className="py-20 bg-white">
+      <section id="position" className="py-20 bg-white fade-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-red-500 font-medium mb-4">Academic Journey</p>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12">
@@ -122,7 +147,7 @@ const Index = () => {
       </section>
 
       {/* Publications & Research */}
-      <section id="publications" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="publications" className="py-24 px-4 sm:px-6 lg:px-8 bg-white fade-up">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-12">
             {/* Left Content */}
@@ -182,14 +207,14 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 bg-[#000d30] text-white">
+      <section id="contact" className="py-16 bg-[#000d30] text-white fade-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Left Section - Title and Bio */}
             <div className="md:col-span-1">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4"> Dr Hiram.</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4"> Dr. Hiram Ting</h2>
               <p className="text-sm text-gray-300 mb-6">
-                Malaysian Scholar & Expert in Marketing, Tourism, and Responsible Business Practices
+                BE A MAN OF VALUE, REMAIN GRATEFUL, LIVE IN THE MOMENT & STAY PURPOSEFUL
               </p>
               
               {/* Social Media Icons */}
@@ -230,64 +255,149 @@ const Index = () => {
           </div>
         </div>
       </section>
+      {/* Footer - Copyright */}
+      <footer className="bg-[#000d30] text-gray-400 text-center py-6 text-sm">
+        © 2025 Dr. Hiram Ting. All rights reserved.
+      </footer>
     </div>
   );
 };
 
 const positions = [
-  // {
-  //   title: "Adjunct Professor",
-  //   institution: "Taylor's University, Malaysia",
-  //   duration: "2020-Present"
-  // },
-  // {
-  //   title: "Adjunct Professor",
-  //   institution: "Sohar University, Oman",
-  //   duration: "2019-Present"
-  // },
-  // {
-  //   title: "Visiting Professor",
-  //   institution: "Krirk University, Thailand",
-  //   duration: "2021-Present"
-  // },
-  // {
-  //   title: "Chairman",
-  //   institution: "Sarawak Research Society",
-  //   duration: "2018-Present"
-  // },
   {
     title: "Director",
     institution: "Centre for Responsible Borneo (REBORN)",
     duration: "2019-Present"
   },
   // {
-  //   title: "Editor-in-Chief",
-  //   institution: "Journal of Responsible Tourism Management",
-  //   duration: "2020-Present"
+  //   title: "Professor",
+  //   institution: "i-CATS University College, Sarawak, Malaysia",
   // },
-];
-
-const publications = [
   // {
-  //   title: "Guide on SmartPLS 3.0",
-  //   description: "Comprehensive guide for using SmartPLS 3.0 in research",
-  //   year: "2023",
+  //   title: "Associate Professor",
+  //   institution: "UCSI University, Faculty of Hospitality and Tourism Management",
+  //   duration: "2018-2023"
+  // },
+  // {
+  //   title: "Adjunct Professor",
+  //   institution: "Taylor's University, Malaysia",
+  //   duration: "2024-Present"
+  // },
+  // {
+  //   title: "Adjunct Associate Professor",
+  //   institution: "Ming Chuan University, Taiwan"
+  // },
+  // {
+  //   title: "Professional Chair",
+  //   institution: "Polytechnic University of the Philippines"
+  // },
+  // {
+  //   title: "Visiting Fellow",
+  //   institution: "Centre for Tourism Research, Wakayama University, Japan"
+  // },
+  // {
+  //   title: "Research Officer",
+  //   institution: "Faculty of Economics and Business, Universiti Malaysia Sarawak (UNIMAS)",
+  //   duration: "2010-2016"
+  // },
+  // {
+  //   title: "Tutor",
+  //   institution: "Universiti Malaysia Sarawak (UNIMAS)",
+  //   duration: "2011-2013"
+  // },
+  // {
+  //   title: "Part-time MBA Lecturer",
+  //   institution: "SEGi College Sarawak"
+  // },
+  // {
+  //   title: "Part-time Lecturer/Tutor",
+  //   institution: "Swinburne University of Technology, Sarawak"
+  // },
+  // {
+  //   title: "Part-time MSc Tutor",
+  //   institution: "Open University Malaysia, Sarawak Learning Centre"
   // },
   {
+    title: "Chairman",
+    institution: "Sarawak Research Society",
+    duration: "2018-Present"
+  },
+  {
+    title: "Co-Director",
+    institution: "Southeast Asia Research Academy (SEARA)"
+  },
+  {
+    title: "Editor-in-Chief",
+    institution: "Young Consumers; Journal of Applied Structural Equation Modeling (JASEM); Responsible Tourism Management (JRTM); Asian Journal of Business Research (AJBR)"
+  },
+  {
+    title: "Ambassador",
+    institution: "Emerald Publishing, East Asia"
+  },
+  {
+    title: "Panel Member",
+    institution: "UN Tourism (formerly UNWTO) Panel of Tourism Experts"
+  }
+];
+
+
+const publications = [
+  {
+    title: "An Outlook on Responsible Tourism in Southeast Asia",
+    description: "Explores sustainable tourism practices and challenges in Southeast Asia.",
+    year: "2022",
+  },
+  {
+    title: "Do Privacy Stress and Brand Trust Still Matter?",
+    description: "Investigates the impact of privacy concerns and brand trust on continuous online purchasing intentions in China.",
+    year: "2022",
+  },
+  {
     title: "Responsible Tourism Management",
-    description: "Research on sustainable tourism practices in Southeast Asia",
+    description: "Research on sustainable tourism practices in Southeast Asia.",
     year: "2022",
   },
   {
     title: "Consumer Behavior Studies",
-    description: "Analysis of consumer patterns in Malaysian markets",
+    description: "Analysis of consumer patterns in Malaysian markets.",
     year: "2022",
   },
   {
-    title: "Heritage Tourism in Sarawak",
-    description: "Feasibility study on heritage tourism development",
+    title: "To Move or Not to Move? A Study of Sustainable Retirement Village in Malaysia",
+    description: "Examines factors influencing the decision to relocate to sustainable retirement communities in Malaysia.",
+    year: "2022",
+  },
+  {
+    title: "The Dark and Bright Side of Online Consumer Behavior",
+    description: "Analyzes both positive and negative aspects of online consumer behavior.",
     year: "2021",
   },
+  {
+    title: "Heritage Tourism in Sarawak",
+    description: "Feasibility study on heritage tourism development.",
+    year: "2021",
+  },
+  {
+    title: "Editorial: Ethnic Food and Its Implications for Destination Tourism in Asia",
+    description: "Discusses how ethnic cuisine influences tourism destinations in Asia.",
+    year: "2020",
+  },
+  {
+    title: "Compulsive Buying of Branded Apparel and the Mediating Role of Brand Attachment",
+    description: "Studies the relationship between compulsive buying behavior and brand attachment in the context of branded apparel.",
+    year: "2020",
+  },
+  {
+    title: "Consumer Behavior and Disposition Decisions: The Why and How of Smartphones Disposition",
+    description: "Investigates consumer behavior related to the disposal of smartphones.",
+    year: "2019",
+  },
+  {
+    title: "Beliefs About the Use of Instagram: An Exploratory Study",
+    description: "Explores user beliefs and attitudes towards Instagram usage in emerging markets.",
+    year: "2015",
+  },
 ];
+
 
 export default Index;
