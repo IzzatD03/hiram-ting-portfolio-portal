@@ -24,28 +24,36 @@ const Index = () => {
                 Malaysian Scholar & Expert in Marketing, Tourism, and Responsible Business Practices
               </p>
               <div className="flex items-center gap-6 pt-4">
+              <a href="https://wa.me/60183653472" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-red-500 hover:bg-red-600 text-white px-8">
                   Contact Me
                 </Button>
-                <button className="flex items-center gap-2 text-gray-600 hover:text-red-500 transition-colors">
+              </a>
+
+                {/* <button className="flex items-center gap-2 text-gray-600 hover:text-red-500 transition-colors">
                   <div className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center">
                     ▶
                   </div>
                   <span>Watch Video</span>
-                </button>
+                </button> */}
               </div>
             </div>
-            <div className="relative">
-              <div className="absolute -right-4 -top-4 w-[500px] h-[500px] bg-red-500 rounded-full" />
-              <div 
-                className="relative w-full h-[500px] bg-cover bg-center rounded-2xl overflow-hidden"
-                style={{
-                  backgroundImage: 'url(/lovable-uploads/2dac7cea-ed94-42ce-a4ae-69928dc9db2a.png)',
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center'
-                }}
-              />
+            <div className="relative w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[340px] md:h-[340px] mx-auto">
+              {/* Red Circle */}
+              <div className="absolute inset-0 rounded-full bg-red-500" />
+
+              {/* Photo */}
+              <div className="relative w-[260px] h-[300px] sm:w-[300px] sm:h-[340px] md:w-[320px] md:h-[360px] mx-auto flex items-center justify-center">
+                <img
+                  src="/lovable-uploads/Dr_Hiram_Ting.png"
+                  alt="Dr. Hiram Ting"
+                  className="object-cover rounded-2xl w-full h-full"
+                />
+              </div>
             </div>
+
+
+
           </div>
         </div>
       </section>
@@ -66,12 +74,12 @@ const Index = () => {
                 The World
               </h2>
               <div className="flex gap-6">
-                <Button className="bg-red-500 hover:bg-red-600">
+                {/* <Button className="bg-red-500 hover:bg-red-600">
                   Download CV
-                </Button>
-                <Button variant="outline">
+                </Button> */}
+                {/* <Button variant="outline">
                   My Process
-                </Button>
+                </Button> */}
               </div>
             </div>
             <div className="space-y-6 text-gray-600">
@@ -114,65 +122,111 @@ const Index = () => {
       </section>
 
       {/* Publications & Research */}
-      <section id="publications" className="py-20 bg-[#f8f9fc]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-red-500 font-medium mb-4">Latest Work</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12">
-            Publications & Research
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {publications.map((pub, index) => (
-              <Card 
-                key={index} 
-                className="p-8 hover:shadow-lg transition-all duration-300 bg-white border-none"
-              >
-                <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
-                  <Book className="w-6 h-6 text-red-500" />
-                </div>
-                <div className="space-y-3">
-                  <p className="text-red-500 text-sm">{pub.year}</p>
-                  <h3 className="font-bold text-xl text-gray-900 line-clamp-2">{pub.title}</h3>
-                  <p className="text-gray-600 line-clamp-3">{pub.description}</p>
-                </div>
-              </Card>
-            ))}
+      <section id="publications" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row gap-12">
+            {/* Left Content */}
+            <div className="lg:w-1/2">
+              <p className="text-red-500 font-medium mb-4">Latest Work</p>
+              <h2 className="text-5xl font-bold text-gray-900 mb-12">
+                Publications & Research
+              </h2>
+
+              <div className="flex flex-col space-y-16">
+                {publications.map((pub, index) => (
+                  <div key={index} className="relative pl-6 border-l-2 border-red-500">
+                    <span className="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-red-500"></span>
+                    <p className="text-red-500 mb-1">{pub.year}</p>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">{pub.title}</h3>
+                    <p className="text-gray-600">{pub.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Images - Creative Layout */}
+{/* <div className="lg:w-1/2 relative">
+ 
+  <div className="relative mb-16">
+
+    <div className="absolute right-0 top-8 w-4/5 h-72 bg-gray-100"></div>
+    
+
+    <div className="relative z-10 ml-8 mb-2">
+      <img src="/api/placeholder/600/400" alt="Research" className="w-full h-72 object-cover shadow-lg" />
+    </div>
+    
+
+    <div className="absolute -bottom-12 -left-4 w-2/5 z-20">
+      <img src="/api/placeholder/300/300" alt="Publication detail" className="w-full h-40 object-cover shadow-lg border-4 border-white" />
+    </div>
+    
+
+    <div className="absolute -right-5 -bottom-5 w-16 h-16 bg-red-500 flex items-center justify-center shadow-lg z-30">
+      <svg className="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    </div>
+  </div>
+  
+
+  <div className="relative ml-16">
+    <img src="/api/placeholder/500/300" alt="Research work" className="w-full h-56 object-cover shadow-lg" />
+    
+
+    <div className="absolute -left-8 top-1/2 -translate-y-1/2 w-16 h-1 bg-red-500"></div>
+  </div>
+</div> */}
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold font-playfair text-[#1A1F2C] mb-4">
-              Contact
-            </h2>
-          </div>
-          
+      <section id="contact" className="py-16 bg-[#000d30] text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all p-10 flex flex-col items-center text-center">
-              <div className="w-16 h-16 bg-[#f8f9fc] rounded-full flex items-center justify-center mb-6">
-                <Mail className="w-8 h-8 text-[#1A1F2C]" />
+            {/* Left Section - Title and Bio */}
+            <div className="md:col-span-1">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4"> Dr Hiram.</h2>
+              <p className="text-sm text-gray-300 mb-6">
+                Malaysian Scholar & Expert in Marketing, Tourism, and Responsible Business Practices
+              </p>
+              
+              {/* Social Media Icons */}
+              <div className="flex space-x-4 text-gray-300">
+                <a href="#" className="hover:text-white"><i className="fab fa-facebook-f"></i></a>
+                <a href="#" className="hover:text-white"><i className="fab fa-twitter"></i></a>
+                <a href="#" className="hover:text-white"><i className="fab fa-behance"></i></a>
+                <a href="#" className="hover:text-white"><i className="fab fa-linkedin-in"></i></a>
+                <a href="#" className="hover:text-white"><i className="fab fa-youtube"></i></a>
               </div>
-              <h3 className="text-2xl font-bold font-playfair mb-3">Email</h3>
-              <p className="text-gray-600">hiramparousia@gmail.com</p>
-            </Card>
+            </div>
             
-            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all p-10 flex flex-col items-center text-center">
-              <div className="w-16 h-16 bg-[#f8f9fc] rounded-full flex items-center justify-center mb-6">
-                <Phone className="w-8 h-8 text-[#1A1F2C]" />
+            {/* Right Section - Contact Information */}
+            <div className="md:col-span-2">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {/* Email Section */}
+                <div>
+                  <h3 className="text-gray-400 uppercase text-sm font-medium mb-4">Send Mail</h3>
+                  <p className="mb-2">hiramparousia@gmail.com</p>
+                  <p></p>
+                </div>
+                
+                {/* Phone Section */}
+                <div>
+                  <h3 className="text-gray-400 uppercase text-sm font-medium mb-4">Make Call</h3>
+                  <p className="mb-2">+6018-365 3472</p>
+                  <p></p>
+                </div>
+                
+                {/* Location Section */}
+                <div>
+                  <h3 className="text-gray-400 uppercase text-sm font-medium mb-4">Get in Touch</h3>
+                  <p className="mb-2">2nd-3rd Floor Lot 153, Jalan Ban Hock 93100, Jalan Ban Hock, 93350 Kuching, Sarawak</p>
+                  <p>Malaysia</p>
+                </div>
               </div>
-              <h3 className="text-2xl font-bold font-playfair mb-3">WhatsApp</h3>
-              <p className="text-gray-600">+6018-365 3472</p>
-            </Card>
-            
-            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all p-10 flex flex-col items-center text-center">
-              <div className="w-16 h-16 bg-[#f8f9fc] rounded-full flex items-center justify-center mb-6">
-                <Globe className="w-8 h-8 text-[#1A1F2C]" />
-              </div>
-              <h3 className="text-2xl font-bold font-playfair mb-3">Location</h3>
-              <p className="text-gray-600">Malaysia</p>
-            </Card>
+            </div>
           </div>
         </div>
       </section>
@@ -181,44 +235,44 @@ const Index = () => {
 };
 
 const positions = [
-  {
-    title: "Adjunct Professor",
-    institution: "Taylor's University, Malaysia",
-    duration: "2020-Present"
-  },
-  {
-    title: "Adjunct Professor",
-    institution: "Sohar University, Oman",
-    duration: "2019-Present"
-  },
-  {
-    title: "Visiting Professor",
-    institution: "Krirk University, Thailand",
-    duration: "2021-Present"
-  },
-  {
-    title: "Chairman",
-    institution: "Sarawak Research Society",
-    duration: "2018-Present"
-  },
+  // {
+  //   title: "Adjunct Professor",
+  //   institution: "Taylor's University, Malaysia",
+  //   duration: "2020-Present"
+  // },
+  // {
+  //   title: "Adjunct Professor",
+  //   institution: "Sohar University, Oman",
+  //   duration: "2019-Present"
+  // },
+  // {
+  //   title: "Visiting Professor",
+  //   institution: "Krirk University, Thailand",
+  //   duration: "2021-Present"
+  // },
+  // {
+  //   title: "Chairman",
+  //   institution: "Sarawak Research Society",
+  //   duration: "2018-Present"
+  // },
   {
     title: "Director",
     institution: "Centre for Responsible Borneo (REBORN)",
     duration: "2019-Present"
   },
-  {
-    title: "Editor-in-Chief",
-    institution: "Journal of Responsible Tourism Management",
-    duration: "2020-Present"
-  },
+  // {
+  //   title: "Editor-in-Chief",
+  //   institution: "Journal of Responsible Tourism Management",
+  //   duration: "2020-Present"
+  // },
 ];
 
 const publications = [
-  {
-    title: "Guide on SmartPLS 3.0",
-    description: "Comprehensive guide for using SmartPLS 3.0 in research",
-    year: "2023",
-  },
+  // {
+  //   title: "Guide on SmartPLS 3.0",
+  //   description: "Comprehensive guide for using SmartPLS 3.0 in research",
+  //   year: "2023",
+  // },
   {
     title: "Responsible Tourism Management",
     description: "Research on sustainable tourism practices in Southeast Asia",
