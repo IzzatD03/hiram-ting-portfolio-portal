@@ -30,9 +30,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <p className="text-red-500 font-medium">Scholar & Expert in Marketing</p>
+              {/* <p className="text-red-500 font-medium">Scholar & Expert in Marketing</p> */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                I'm Professor
+                {/* I'm Professor */}
                 <br /> 
                 Dr. Hiram Ting
               </h1>
