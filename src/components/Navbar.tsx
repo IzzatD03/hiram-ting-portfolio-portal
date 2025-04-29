@@ -1,14 +1,8 @@
-
 import { useState } from 'react';
-import { Menu, X, Home, Users, Book, Package, Calendar, FileText, Newspaper, ChevronDown } from 'lucide-react';
+import { Menu, X, Home, Users, Package, Calendar, FileText, Newspaper } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+import PublicationsMenu from './PublicationsMenu';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +10,7 @@ const Navbar = () => {
   const navigation = [
     { name: 'Home', href: '/', icon: Home }, 
     { name: 'Affiliations', href: '/affiliations', icon: Users },
-    // Publications is now handled separately as a dropdown
+    // Publications is now handled by the PublicationsMenu component
     { name: 'Projects', href: '/projects', icon: Package },
     { name: 'Events', href: '/events', icon: Calendar },
     { name: 'Curriculum Vitae', href: '/cv', icon: FileText },
@@ -46,33 +40,8 @@ const Navbar = () => {
                 </Link>
               ))}
               
-              {/* Publications Dropdown - Now positioned between Affiliations and Projects */}
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <div className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2 cursor-pointer">
-                    <Book className="h-4 w-4" />
-                    Publications
-                    <ChevronDown className="h-3 w-3" />
-                  </div>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="center" className="bg-white w-56">
-                  <Link to="/publications/journal-articles">
-                    <DropdownMenuItem className="cursor-pointer">
-                      Journal Articles
-                    </DropdownMenuItem>
-                  </Link>
-                  <Link to="/publications/books-chapters">
-                    <DropdownMenuItem className="cursor-pointer">
-                      Books and Chapters
-                    </DropdownMenuItem>
-                  </Link>
-                  <Link to="/publications/other-publications">
-                    <DropdownMenuItem className="cursor-pointer">
-                      Other Publications
-                    </DropdownMenuItem>
-                  </Link>
-                </DropdownMenuContent>
-              </DropdownMenu>
+              {/* Publications Menu - Now using our hover-activated component */}
+              <PublicationsMenu />
               
               {/* Projects, Events, CV, and News */}
               {navigation.slice(2).map((item) => (
@@ -119,7 +88,7 @@ const Navbar = () => {
               </Link>
             ))}
             
-            {/* Publications in Mobile Menu - Now positioned between Affiliations and Projects */}
+            {/* Publications in Mobile Menu - Keep the expanded version for mobile */}
             <div className="px-3 py-2">
               <div className="text-gray-700 font-medium flex items-center gap-2">
                 <Book className="h-5 w-5" />
