@@ -1,20 +1,21 @@
 
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Home, Users, Book, Package, Calendar, FileText, Newspaper } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: 'Home', href: '#' }, // Top of the page
-    { name: 'About', href: '#about' }, // Academic Positions section
-    { name: 'Position', href: '#position' },
-    { name: 'Publications', href: '#publications' }, // Publications & Research section
-    { name: 'Contact', href: '#contact' }, // Contact section
+    { name: 'Home', href: '#', icon: Home }, 
+    { name: 'Affiliations', href: '#affiliations', icon: Users },
+    { name: 'Publications', href: '#publications', icon: Book },
+    { name: 'Projects', href: '#projects', icon: Package },
+    { name: 'Events', href: '#events', icon: Calendar },
+    { name: 'Curriculum Vitae', href: '#cv', icon: FileText },
+    { name: 'News', href: '#news', icon: Newspaper },
   ];
   
-
   return (
     <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,8 +31,9 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2"
                 >
+                  <item.icon className="h-4 w-4" />
                   {item.name}
                 </a>
               ))}
@@ -60,9 +62,10 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-primary block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-700 hover:text-primary block px-3 py-2 rounded-md text-base font-medium flex items-center gap-2"
                 onClick={() => setIsOpen(false)}
               >
+                <item.icon className="h-5 w-5" />
                 {item.name}
               </a>
             ))}
