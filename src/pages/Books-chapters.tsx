@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const BooksChapters = () => {
   return (
@@ -13,6 +14,7 @@ const BooksChapters = () => {
           <p className="text-gray-500">Books and chapters content coming soon.</p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

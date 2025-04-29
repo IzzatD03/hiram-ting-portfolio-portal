@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const OtherPublications = () => {
   return (
@@ -13,6 +14,7 @@ const OtherPublications = () => {
           <p className="text-gray-500">Other publications content coming soon.</p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

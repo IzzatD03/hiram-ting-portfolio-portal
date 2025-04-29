@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const JournalArticles = () => {
   return (
@@ -13,6 +14,7 @@ const JournalArticles = () => {
           <p className="text-gray-500">Journal articles content coming soon.</p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

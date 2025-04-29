@@ -1,5 +1,5 @@
-
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Award, Book, Briefcase, Globe, Mail, Phone, Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
@@ -15,7 +15,7 @@ const Index = () => {
           entry.target.classList.add('fade-up-visible');
         }
       });
-    }, { threshold: 0.1 });
+    }, { { threshold: 0.1 });
 
     const elements = document.querySelectorAll('.fade-up');
     elements.forEach(el => observer.observe(el));
@@ -206,59 +206,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-16 bg-[#000d30] text-white fade-up">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Left Section - Title and Bio */}
-            <div className="md:col-span-1">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4"> Dr. Hiram Ting</h2>
-              <p className="text-sm text-gray-300 mb-6">
-                BE A MAN OF VALUE, REMAIN GRATEFUL, LIVE IN THE MOMENT & STAY PURPOSEFUL
-              </p>
-              
-              {/* Social Media Icons */}
-              <div className="flex space-x-4 text-gray-300">
-                <a href="#" className="hover:text-white"><i className="fab fa-facebook-f"></i></a>
-                <a href="#" className="hover:text-white"><i className="fab fa-twitter"></i></a>
-                <a href="#" className="hover:text-white"><i className="fab fa-behance"></i></a>
-                <a href="#" className="hover:text-white"><i className="fab fa-linkedin-in"></i></a>
-                <a href="#" className="hover:text-white"><i className="fab fa-youtube"></i></a>
-              </div>
-            </div>
-            
-            {/* Right Section - Contact Information */}
-            <div className="md:col-span-2">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {/* Email Section */}
-                <div>
-                  <h3 className="text-gray-400 uppercase text-sm font-medium mb-4">Send Mail</h3>
-                  <p className="mb-2">hiramparousia@gmail.com</p>
-                  <p></p>
-                </div>
-                
-                {/* Phone Section */}
-                <div>
-                  <h3 className="text-gray-400 uppercase text-sm font-medium mb-4">Make Call</h3>
-                  <p className="mb-2">+6018-365 3472</p>
-                  <p></p>
-                </div>
-                
-                {/* Location Section */}
-                <div>
-                  <h3 className="text-gray-400 uppercase text-sm font-medium mb-4">Get in Touch</h3>
-                  <p className="mb-2">2nd-3rd Floor Lot 153, Jalan Ban Hock 93100, Jalan Ban Hock, 93350 Kuching, Sarawak</p>
-                  <p>Malaysia</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Footer - Copyright */}
-      <footer className="bg-[#000d30] text-gray-400 text-center py-6 text-sm">
-        © 2025 Dr. Hiram Ting. All rights reserved.
-      </footer>
+      <Footer />
     </div>
   );
 };

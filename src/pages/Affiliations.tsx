@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Building, Briefcase, BookOpen, Award, Globe, Calendar } from 'lucide-react';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 
@@ -134,13 +135,12 @@ const Affiliations = () => {
       
       {/* Header */}
       <header className="pt-24 pb-16 bg-[#f8f9fc] text-center">
-  <div className="max-w-4xl mx-auto px-4">
-    <h1 className="text-5xl md:text-6xl font-playfair font-bold text-gray-900">
-      Affiliations
-    </h1>
-  </div>
-</header>
-
+        <div className="max-w-4xl mx-auto px-4">
+          <h1 className="text-5xl md:text-6xl font-playfair font-bold text-gray-900">
+            Affiliations
+          </h1>
+        </div>
+      </header>
 
       {/* Main content */}
       <main className="container mx-auto px-4 py-12">
@@ -218,19 +218,7 @@ const Affiliations = () => {
         </div>
       </main>
 
-      {/* World Map Visualization (Optional decorative element) */}
-      {/* <div className="container mx-auto px-4 pb-16">
-        <div className="bg-white rounded-lg p-6 shadow-sm">
-          <div className="flex items-center gap-3 mb-6">
-            <Globe className="w-6 h-6 text-primary" />
-            <h3 className="text-xl font-semibold">Global Presence</h3>
-          </div>
-          <div className="text-center text-gray-500 italic">
-            [A world map visualization could be added here to highlight the global presence]
-          </div>
-        </div>
-      </div> */}
-
+      <Footer />
     </div>
   );
 };
