@@ -16,7 +16,7 @@ const Navbar = () => {
   const navigation = [
     { name: 'Home', href: '/', icon: Home }, 
     { name: 'Affiliations', href: '/affiliations', icon: Users },
-    // Publications has been removed from main navigation as it will have a dropdown
+    // Publications is now handled separately as a dropdown
     { name: 'Projects', href: '/projects', icon: Package },
     { name: 'Events', href: '/events', icon: Calendar },
     { name: 'Curriculum Vitae', href: '/cv', icon: FileText },
@@ -34,7 +34,8 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              {navigation.map((item) => (
+              {/* Home and Affiliations */}
+              {navigation.slice(0, 2).map((item) => (
                 <Link
                   key={item.name}
                   to={item.href}
@@ -45,7 +46,7 @@ const Navbar = () => {
                 </Link>
               ))}
               
-              {/* Publications Dropdown */}
+              {/* Publications Dropdown - Now positioned between Affiliations and Projects */}
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <div className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2 cursor-pointer">
@@ -72,6 +73,18 @@ const Navbar = () => {
                   </Link>
                 </DropdownMenuContent>
               </DropdownMenu>
+              
+              {/* Projects, Events, CV, and News */}
+              {navigation.slice(2).map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2"
+                >
+                  <item.icon className="h-4 w-4" />
+                  {item.name}
+                </Link>
+              ))}
             </div>
           </div>
 
@@ -93,7 +106,8 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {navigation.map((item) => (
+            {/* Home and Affiliations */}
+            {navigation.slice(0, 2).map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
@@ -105,7 +119,7 @@ const Navbar = () => {
               </Link>
             ))}
             
-            {/* Publications in Mobile Menu */}
+            {/* Publications in Mobile Menu - Now positioned between Affiliations and Projects */}
             <div className="px-3 py-2">
               <div className="text-gray-700 font-medium flex items-center gap-2">
                 <Book className="h-5 w-5" />
@@ -135,6 +149,19 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
+            
+            {/* Projects, Events, CV, and News */}
+            {navigation.slice(2).map((item) => (
+              <Link
+                key={item.name}
+                to={item.href}
+                className="text-gray-700 hover:text-primary block px-3 py-2 rounded-md text-base font-medium flex items-center gap-2"
+                onClick={() => setIsOpen(false)}
+              >
+                <item.icon className="h-5 w-5" />
+                {item.name}
+              </Link>
+            ))}
           </div>
         </div>
       )}
