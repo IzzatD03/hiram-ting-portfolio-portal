@@ -15,7 +15,7 @@ const Index = () => {
           entry.target.classList.add('fade-up-visible');
         }
       });
-    }, { { threshold: 0.1 });
+    }, { threshold: 0.1 });
 
     const elements = document.querySelectorAll('.fade-up');
     elements.forEach(el => observer.observe(el));
@@ -342,7 +342,7 @@ const publications = [
   },
   {
     title: "Beliefs About the Use of Instagram: An Exploratory Study",
-    description: "Explores user beliefs and attitudes towards Instagram usage in emerging markets.",
+    description: "Explores user beliefs and attitudes towards Instagram usage in emerging markets.\",
     year: "2015",
   },
 ];
