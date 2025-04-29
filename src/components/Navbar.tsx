@@ -1,5 +1,6 @@
+
 import { useState } from 'react';
-import { Menu, X, Home, Users, Package, Calendar, FileText, Newspaper } from 'lucide-react';
+import { Menu, X, Home, Users, Package, Calendar, FileText, Newspaper, Book } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
 import PublicationsMenu from './PublicationsMenu';
