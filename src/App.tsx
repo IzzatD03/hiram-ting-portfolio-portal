@@ -11,6 +11,10 @@ import Publications from "./pages/Publications";
 import JournalArticles from "./pages/Journal-articles";
 import BooksChapters from "./pages/Books-chapters";
 import OtherPublications from "./pages/Other-publications";
+import Projects from "./pages/Projects";
+import Events from "./pages/Events";
+import CurriculumVitae from "./pages/Curriculum-Vitae";
+import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 
 // Create a client
@@ -31,6 +35,10 @@ const App = () => {
               <Route path="/publications/journal-articles" element={<JournalArticles />} />
               <Route path="/publications/books-chapters" element={<BooksChapters />} />
               <Route path="/publications/other-publications" element={<OtherPublications />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/cv" element={<CurriculumVitae />} />
+              <Route path="/news" element={<News />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
