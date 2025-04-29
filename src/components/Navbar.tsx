@@ -111,11 +111,11 @@ const Navbar = () => {
                   Books and Chapters
                 </Link>
                 <Link
-                  to="/publications/other-publications"
+                  to="/publications/conference-proceedings"
                   className="text-gray-600 hover:text-primary block py-1 text-sm"
                   onClick={() => setIsOpen(false)}
                 >
-                  Other Publications
+                  Conference Proceedings
                 </Link>
               </div>
             </div>

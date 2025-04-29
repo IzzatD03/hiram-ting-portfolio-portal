@@ -31,7 +31,7 @@ const Publications = () => {
 
           <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
-              <CardTitle className="text-xl">Other Publications</CardTitle>
+              <CardTitle className="text-xl">Conference Proceedings</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">Conference papers, reports, and other published works.</p>

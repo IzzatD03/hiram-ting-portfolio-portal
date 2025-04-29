@@ -10,7 +10,7 @@ import Affiliations from "./pages/Affiliations";
 import Publications from "./pages/Publications";
 import JournalArticles from "./pages/Journal-articles";
 import BooksChapters from "./pages/Books-chapters";
-import OtherPublications from "./pages/Other-publications";
+import ConferenceProceedings from "./pages/Conference-proceedings";
 import Projects from "./pages/Projects";
 import Events from "./pages/Events";
 import CurriculumVitae from "./pages/Curriculum-Vitae";
@@ -34,7 +34,7 @@ const App = () => {
               <Route path="/publications" element={<Publications />} />
               <Route path="/publications/journal-articles" element={<JournalArticles />} />
               <Route path="/publications/books-chapters" element={<BooksChapters />} />
-              <Route path="/publications/other-publications" element={<OtherPublications />} />
+              <Route path="/publications/conference-proceedings" element={<ConferenceProceedings />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/events" element={<Events />} />
               <Route path="/cv" element={<CurriculumVitae />} />

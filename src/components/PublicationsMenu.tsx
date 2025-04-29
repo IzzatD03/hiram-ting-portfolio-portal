@@ -39,11 +39,11 @@ const PublicationsMenu = () => {
                   <div className="text-sm font-medium leading-none">Books and Chapters</div>
                 </NavigationMenuLink>
               </Link>
-              <Link to="/publications/other-publications">
+              <Link to="/publications/conference-proceedings">
                 <NavigationMenuLink className={cn(
                   "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                 )}>
-                  <div className="text-sm font-medium leading-none">Other Publications</div>
+                  <div className="text-sm font-medium leading-none">Conference Proceedings</div>
                 </NavigationMenuLink>
               </Link>
             </div>
