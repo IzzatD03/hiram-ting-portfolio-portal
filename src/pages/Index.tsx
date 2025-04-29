@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -342,7 +343,7 @@ const publications = [
   },
   {
     title: "Beliefs About the Use of Instagram: An Exploratory Study",
-    description: "Explores user beliefs and attitudes towards Instagram usage in emerging markets.\",
+    description: "Explores user beliefs and attitudes towards Instagram usage in emerging markets.",
     year: "2015",
   },
 ];
