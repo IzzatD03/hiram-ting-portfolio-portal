@@ -6,9 +6,9 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 
@@ -17,10 +17,12 @@ const PublicationsMenu = () => {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2 cursor-pointer">
+          <Link to="/publications" className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2">
             <Book className="h-4 w-4" />
-            Publications
-          </NavigationMenuTrigger>
+            <NavigationMenuTrigger className="bg-transparent hover:bg-transparent px-0 py-0">
+              Publications
+            </NavigationMenuTrigger>
+          </Link>
           <NavigationMenuContent>
             <div className="w-[200px] p-2">
               <Link to="/publications/journal-articles">
