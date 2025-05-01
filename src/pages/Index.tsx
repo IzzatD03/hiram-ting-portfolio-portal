@@ -33,19 +33,23 @@ const Index = () => {
             <div className="space-y-6">
               {/* <p className="text-red-500 font-medium">Scholar & Expert in Marketing</p> */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                {/* I'm Professor */}
-                <br /> 
+                <br />
                 Dr. Hiram Ting
               </h1>
-              {/* <p className="text-lg text-gray-600 max-w-lg">
-                Malaysian Scholar & Expert in Marketing, Tourism, and Responsible Business Practices
-              </p> */}
+
+              {/* Align logo to match the left edge of the heading */}
+              <img 
+                src="/lovable-uploads/logo.png"
+                alt="REBORN Logo"
+                className="h-16 w-auto mt-2"
+              />
+
               <div className="flex items-center gap-6 pt-4">
-              <a href="https://wa.me/60183653472" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-red-500 hover:bg-red-600 text-white px-8">
-                  Contact Me
-                </Button>
-              </a>
+                <a href="https://wa.me/60183653472" target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-red-500 hover:bg-red-600 text-white px-8">
+                    Contact Me
+                  </Button>
+                </a>
 
                 {/* <button className="flex items-center gap-2 text-gray-600 hover:text-red-500 transition-colors">
                   <div className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center">
