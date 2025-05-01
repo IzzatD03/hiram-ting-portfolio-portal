@@ -41,7 +41,7 @@ const Projects = () => {
             <BookOpen className="w-6 h-6 text-red-500" />
             <h2 className="text-2xl font-semibold text-gray-800 font-playfair">Research Projects</h2>
           </div>
-          <ul className="space-y-3 bg-[#fff5f5] p-6 rounded-lg shadow-sm">
+          <ul className="space-y-3 bg-[#ffffff] p-6 rounded-lg shadow-sm">
             {researchProjects.map((project, index) => (
               <li key={index} className="text-gray-800 leading-relaxed flex items-start gap-2">
                 <span className="text-red-500 font-semibold">{index + 1}.</span>
@@ -57,7 +57,7 @@ const Projects = () => {
             <Briefcase className="w-6 h-6 text-red-500" />
             <h2 className="text-2xl font-semibold text-gray-800 font-playfair">Industry Projects</h2>
           </div>
-          <ul className="space-y-3 bg-[#fff5f5] p-6 rounded-lg shadow-sm">
+          <ul className="space-y-3 bg-[#ffffff] p-6 rounded-lg shadow-sm">
             {industryProjects.map((project, index) => (
               <li key={index} className="text-gray-800 leading-relaxed flex items-start gap-2">
                 <span className="text-red-500 font-semibold">{index + 1}.</span>

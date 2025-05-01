@@ -37,7 +37,7 @@ const Events = () => {
             <CalendarDays className="w-6 h-6 text-red-500" />
             <h2 className="text-2xl font-semibold text-gray-800 font-playfair">Domestic Events</h2>
           </div>
-          <ul className="space-y-3 bg-[#fff5f5] p-6 rounded-lg shadow-sm">
+          <ul className="space-y-3 bg-[#ffffff] p-6 rounded-lg shadow-sm">
             {domesticEvents.map((event, index) => (
               <li key={index} className="text-gray-800 leading-relaxed flex items-start gap-2">
                 <span className="text-red-500 font-semibold">{index + 1}.</span>
@@ -53,7 +53,7 @@ const Events = () => {
             <Globe className="w-6 h-6 text-red-500" />
             <h2 className="text-2xl font-semibold text-gray-800 font-playfair">International Events</h2>
           </div>
-          <ul className="space-y-3 bg-[#fff5f5] p-6 rounded-lg shadow-sm">
+          <ul className="space-y-3 bg-[#ffffff] p-6 rounded-lg shadow-sm">
             {internationalEvents.map((event, index) => (
               <li key={index} className="text-gray-800 leading-relaxed flex items-start gap-2">
                 <span className="text-red-500 font-semibold">{index + 1}.</span>

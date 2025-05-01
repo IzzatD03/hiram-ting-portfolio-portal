@@ -134,6 +134,26 @@ const JournalArticles = () => {
     '**Ting, H.**, & de Run, E. C. (2012), “Generation X and Y attitude towards controversial advertising”, Asian Journal of Business Research, 2(2), 18-32 (SCOPUS)'
   ];
 
+  const refereedArticles = [
+    `Mumtaz, A. M., **Ting, H.**, Cheah, J. H., Ramayah, T., Chuah, F., & Cham, T. H. (2020), “Sample Size for Survey Research: Review and Recommendations”, Journal of Applied Structural Equation Modeling, 4(1), i-xi.`,
+    `Memon, M. A., Cheah, J. H., Ramayah, T., **Ting, H.**, Chuah, F., & Cham, T. H. (2019), “Moderation analysis: Issues and guidelines”, Journal of Applied Structural Equation Modeling, 3(1), i-xi.`,
+    `Memon, M. A., Cheah, J. H., Ramayah, T., **Ting, H.**, & Chuah, F. (2018), “Mediation analysis issues and recommendations”, Journal of Applied Structural Equation Modeling, 2(1), i-ix.`,
+    `Memon, M. A., **Ting, H.**, Ramayah, T., Chuah, F., & Cheah, J. H. (2017), “A Review of the methodological misconceptions and guidelines related to the application of Structural Equation Modelling: A Malaysian scenario”, Journal of Applied Structural Equation Modelling, 1(1), i-xiii.`,
+    `Rajuli, K., Cheing, A., Zaidi Adrice, S. A., **Ting, H.**, Usop, H. H., & Memon, M. A. (2017), “Knowledge sharing traits and competitive advantage: A qualitative inquiry”, e-Journal of Social & Behavioural Research in Business, 8(2), 29-44.`,
+    `Rasool, S., Kiyani, A. A., Siali, F., **Ting, H.**, & Abdu Shakur, M. M. (2017), “Consumer innovativeness in consumer-company relationship and mediating role of consumer value: An empirical study of cell phone users in Pakistan”, International Review of Management and Marketing, 7(1), 379-388.`,
+    `Yacob, Y., Jati, K. A., **Ting, H.**, Lajuni, N., & Syed Hussin, S. M. O. (2017), “Determinants of members' loyalty in cooperatives”, Malaysian Journal of Co-operative Studies, 13(2), 1-11.`,
+    `Chuah, F., **Ting, H.**, de Run, E. C., & Cheah, J. H. (2016), “Reconsidering what entrepreneurial intention implies: The evidence from Malaysian university students”, International Journal of Business and Social Science, 7(9), 85-98.`,
+    `Jee, T. W., **Ting, H.**, de Run, E. C., & Tan, S. (2016), “Disposition and repurchase intention: A preliminary study of the how and why”, Procedia - Social and Behavioural Sciences, 224, 332-338.`,
+    `**Ting, H.**, Yacob, Y., Liew, L., & Lau, W. M. (2016), “Intention to use mobile payment system:  A case of developing market by ethnicity”, Procedia Social and Behavioural Studies, 224, 368-375.`,
+    `**Ting, H.**, Chuah, C. W., & de Run, E. C. (2016), “Knowledge sharing behaviour in innovative working environment: A case of a software developing company”, International Business Management, 10(10), 1989-1997.`,
+    `**Ting, H.**, de Run, E. C., & Liew, S. L. (2016), “Intention to use Instagram by generation cohorts: The perspective of developing markets”, Global Business and Management Research: An International Journal, 8(1), 43-55.`,
+    `**Ting, H.**, Wong, W. P. W., & de Run, E. C. (2016), “Compliant behaviour between generations and its transmissions: An exploratory study in Malaysia”, International Journal of Business and Management, 11(11), 279-288.`,
+    `Yacob, Y., Ali, K. J., & **Ting, H.** (2016), “Value co-creation dimensions: Their effect on satisfaction of cooperative members”, Malaysian Journal of Co-operative Studies, 12, 93-106.`,
+    `**Ting, H.**, & de Run, E. C. (2015), “A qualitative inquiry into the formation of generational cohorts: A case of an emerging market”, Journal of Economics and Business Research, 21(1), 126-143.`,
+    `**Ting, H.**, Wong, P. M. W., de Run, E. C., & Choo, L. Y. S. (2015), “Beliefs about the use of Instagram: An exploratory study”, International Journal of Business and Innovation, 2(2), 15-31.`
+  ];
+  
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
@@ -164,8 +184,17 @@ const JournalArticles = () => {
           <h2 className="text-2xl font-semibold font-playfair text-gray-800 mb-4">
             Refereed (ERA listed) Journal Articles
           </h2>
-          <p className="text-gray-600">Content will be added soon.</p>
+          <ol className="list-decimal pl-5 space-y-5 text-gray-700">
+            {refereedArticles.map((item, index) => (
+              <li key={index + 1} className="leading-relaxed">
+                {item.split('**').map((part, i) =>
+                  i % 2 === 0 ? part : <strong key={i}>{part}</strong>
+                )}
+              </li>
+            ))}
+          </ol>
         </section>
+
       </div>
       <Footer />
     </div>
