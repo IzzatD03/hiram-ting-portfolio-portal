@@ -8,7 +8,7 @@ const CurriculumVitae = () => {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       <div className="container mx-auto pt-24 px-4 pb-16 max-w-5xl">
-        <h1 className="text-4xl md:text-5xl font-bold font-playfair mb-10 text-center text-gray-800">
+        <h1 className="text-5xl md:text-6xl font-playfair font-bold text-gray-900 text-center">
           Curriculum Vitae
         </h1>
 
