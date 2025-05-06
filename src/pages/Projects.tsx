@@ -29,10 +29,10 @@ const Projects = () => {
       <div className="container mx-auto pt-24 px-4 pb-20 max-w-5xl">
         {/* Header */}
         <header className="text-center mb-12">
-          <h1 className="text-5xl font-bold font-playfair text-gray-900 mb-3">Projects</h1>
-          <p className="text-lg text-gray-600">
+          <h1 className="text-5xl md:text-6xl font-playfair font-bold text-gray-900">Projects</h1>
+          {/* <p className="text-lg text-gray-600">
             An overview of research and industry initiatives driven by responsible engagement.
-          </p>
+          </p> */}
         </header>
 
         {/* Research Projects */}

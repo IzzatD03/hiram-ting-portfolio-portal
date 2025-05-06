@@ -25,10 +25,10 @@ const Events = () => {
       <div className="container mx-auto pt-24 px-4 pb-20 max-w-5xl">
         {/* Header */}
         <header className="text-center mb-12">
-          <h1 className="text-5xl font-bold font-playfair text-gray-900 mb-3">Events</h1>
-          <p className="text-lg text-gray-600">
+          <h1 className="text-5xl md:text-6xl font-playfair font-bold text-gray-900">Events</h1>
+          {/* <p className="text-lg text-gray-600">
             Activities and conferences that highlight engagement in tourism, youth, and research.
-          </p>
+          </p> */}
         </header>
 
         {/* Domestic Events */}

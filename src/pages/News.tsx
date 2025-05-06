@@ -166,8 +166,8 @@ const News = () => {
       <Navbar />
       <div className="container mx-auto pt-24 px-4 pb-16 max-w-5xl">
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold font-playfair text-gray-900 mb-3">News Feeds</h1>
-          <p className="text-lg text-gray-600">Latest publications and media coverage</p>
+          <h1 className="text-5xl md:text-6xl font-playfair font-bold text-gray-900">News</h1>
+          {/* <p className="text-lg text-gray-600">Latest publications and media coverage</p> */}
         </div>
 
         <div className="space-y-6">
