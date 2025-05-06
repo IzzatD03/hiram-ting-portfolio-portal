@@ -19,10 +19,10 @@ const Footer = () => {
   <a href="https://www.facebook.com/hiramparousia/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
     <Facebook className="h-5 w-5" />
   </a>
-  <a href="https://twitter.com/hiramparousia" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+  {/* <a href="https://twitter.com/hiramparousia" target="_blank" rel="noopener noreferrer" className="hover:text-white">
     <Twitter className="h-5 w-5" />
-  </a>
-  <a href="https://www.linkedin.com/in/hiram-ting-0a814536/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+  </a> */}
+  <a href="https://www.linkedin.com/in/hiram-ting-%E9%99%B3%E8%8A%B3%E5%A0%AF-0a814536/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
     <Linkedin className="h-5 w-5" />
   </a>
   <a href="https://scholar.google.com.my/citations?user=PvWwU8UAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="hover:text-white">
@@ -31,9 +31,9 @@ const Footer = () => {
   <a href="https://www.researchgate.net/profile/Hiram-Ting" target="_blank" rel="noopener noreferrer" className="hover:text-white">
     <span className="text-sm font-semibold">RG</span>
   </a>
-  <a href="https://www.ucsiuniversity.edu.my/associate-professor-dr-hiram-ting" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+  {/* <a href="https://www.ucsiuniversity.edu.my/associate-professor-dr-hiram-ting" target="_blank" rel="noopener noreferrer" className="hover:text-white">
     <span className="text-sm font-semibold">UCSI</span>
-  </a>
+  </a> */}
 </div>
 
             </div>
