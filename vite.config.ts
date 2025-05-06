@@ -8,6 +8,8 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    // ✅ Add this line to support React Router fallback
+    historyApiFallback: true,
   },
   plugins: [
     react(),
