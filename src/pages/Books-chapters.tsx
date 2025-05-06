@@ -36,7 +36,7 @@ const BooksChapters = () => {
       <div className="container mx-auto pt-24 px-4 pb-16 max-w-5xl">
         <div className="text-center mb-10">
           <h1 className="text-4xl md:text-5xl font-bold font-playfair text-gray-900 mb-4">Books & Chapters</h1>
-          <p className="text-lg text-gray-600">Selected publications authored or co-authored by Dr. Hiram Ting</p>
+          {/* <p className="text-lg text-gray-600">Selected publications authored or co-authored by Dr. Hiram Ting</p> */}
         </div>
 
         <div className="space-y-6">

@@ -71,9 +71,9 @@ const ConferenceProceedings = () => {
       {/* Page Header */}
       <div className="container mx-auto pt-24 px-4 pb-10 text-center">
         <h1 className="text-4xl md:text-5xl font-bold font-playfair text-gray-900 mb-4">Conference Proceedings</h1>
-        <p className="text-gray-600 text-lg">
+        {/* <p className="text-gray-600 text-lg">
           Contributions to international and domestic conferences worldwide.
-        </p>
+        </p> */}
       </div>
 
       <div className="container mx-auto px-4 pb-20 max-w-5xl space-y-16">
