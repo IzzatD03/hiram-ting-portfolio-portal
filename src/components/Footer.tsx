@@ -62,7 +62,7 @@ const Footer = () => {
                 {/* Location Section */}
                 <div>
                   <h3 className="text-gray-400 uppercase text-sm font-medium mb-4">Get in Touch</h3>
-                  <p className="mb-2">2nd-3rd Floor Lot 153, Jalan Ban Hock 93100, Jalan Ban Hock, 93350 Kuching, Sarawak</p>
+                  <p className="mb-2">2nd-3rd Floor, Lot 153, Jalan Ban Hock, 93350, Kuching, Sarawak</p>
                   <p>Malaysia</p>
                 </div>
               </div>
