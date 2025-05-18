@@ -34,7 +34,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2"
+                  className="text-gray-700 hover:text-primary hover:bg-accent px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2"
                 >
                   <item.icon className="h-4 w-4" />
                   {item.name}
@@ -49,7 +49,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2"
+                  className="text-gray-700 hover:text-primary hover:bg-accent px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2"
                 >
                   <item.icon className="h-4 w-4" />
                   {item.name}
