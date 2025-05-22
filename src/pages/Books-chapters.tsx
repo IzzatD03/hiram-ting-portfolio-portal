@@ -27,6 +27,11 @@ const books = [
     citation:
       "Ting, H., Mazlan, A., & Ting, C. Y. (2016). Developing a consumer behaviour towards the purchase and use of health products using the grounded theory approach: A case in Malaysia (Conbe-Hepro). Ministry of Health. Published in December 2016.",
   },
+  {
+    index: 6,
+    citation:
+      "Dai Quang, T., Nguyen, T. N., Nguyen, T. T. Q., & Ting, H. (2025). A Study of Small and Medium-Sized Tour Operators in Ho Chi Minh City. Routledge Handbook of Tourism and Hospitality Development in Vietnam, 155.",
+  },
 ];
 
 const BooksChapters = () => {
