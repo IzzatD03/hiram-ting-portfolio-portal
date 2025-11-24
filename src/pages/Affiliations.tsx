@@ -85,7 +85,7 @@ const Affiliations = () => {
       icon: Briefcase,
       description: 'Professional roles and industry engagements',
       items: [
-        { id: 1, title: 'President', organization: 'Responsible Borneo (REBORN)', period: '' },
+        { id: 1, title: 'President', organization: ' Responsible Borneo (REBORN)', period: '' },
         { id: 2, title: 'Chairman', organization: 'Sarawak Research Society', period: '' },
         { id: 3, title: 'Ambassador', organization: 'Emerald Publishing in East Asia', period: '' },
         { id: 4, title: 'Founder Director', organization: 'Southeast Asia Research Academy (SEARA)', period: '' },
@@ -120,7 +120,13 @@ const Affiliations = () => {
       items: [
         {
           id: 1,
-          title: "World's Top 2% Scientists",
+          title: "World's Top 2% Scientists (2025)",
+          organization: 'Business, Management and Marketing by Stanford University and Elsevier',
+          period: ''
+        },
+        {
+          id: 2,
+          title: "World's Top 2% Scientists (2023,2024)",
           organization: 'Business, Management and Marketing by Stanford University and Elsevier',
           period: ''
         },
