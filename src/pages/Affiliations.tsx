@@ -29,53 +29,68 @@ const Affiliations = () => {
   
 
   // Real academic institutions data from the screenshot
-  const academicInstitutions = [
-    { 
-      title: 'Adjunct Professor', 
-      organization: 'School of Management and Marketing, Taylor\'s University', 
-      location: 'Selangor, Malaysia'
-    },
-    { 
-      title: 'Adjunct Professor', 
-      organization: 'Faculty of Business, Sohar University', 
-      location: 'Sohar, Oman'
-    },
-    { 
-      title: 'Adjunct Professor', 
-      organization: 'Faculty of Vocational Studies, Brawijaya University', 
-      location: 'Malang, Indonesia'
-    },
-    { 
-      title: 'Visiting Professor', 
-      organization: 'International College, Krirk University', 
-      location: 'Bangkok, Thailand'
-    },
-    { 
-      title: 'Visiting Scholar', 
-      organization: 'Faculty of Management Sciences, Phuket Rajabhat University', 
-      location: 'Phuket, Thailand'
-    },
-    { 
-      title: 'Professorial Chairholder', 
-      organization: 'College of Tourism, Hospitality and Transportation Management, Polytechnic University of the Philippines', 
-      location: 'Philippines'
-    },
-    { 
-      title: 'Visiting Fellow', 
-      organization: 'Center for Tourism Research, Wakayama University', 
-      location: 'Japan'
-    },
-    { 
-      title: 'Associate Member', 
-      organization: 'Relation Marketing Cluster, Griffith Business School, Griffith University', 
-      location: 'Australia'
-    },
-    { 
-      title: 'Scientific Board Member', 
-      organization: 'Research Synergy Foundation', 
-      location: 'Indonesia'
-    }
-  ];
+      const academicInstitutions = [
+      {
+        title: 'Senior Research Fellow',
+        organization: 'Strategic Research Institute, Asia Pacific University of Technology and Innovation',
+        location: 'Kuala Lumpur, Malaysia'
+      },
+      {
+        title: 'Senior Professor',
+        organization: 'Faculty of Tourism, Van Hien University',
+        location: 'Ho Chi Minh City, Vietnam'
+      },
+      {
+        title: 'Adjunct Professor',
+        organization: 'Universitas Islam Bandung',
+        location: 'Indonesia'
+      },
+      {
+        title: 'Adjunct Professor',
+        organization: 'Faculty of Business, Sohar University',
+        location: 'Oman'
+      },
+      {
+        title: 'Adjunct Professor',
+        organization: 'Faculty of Vocational Studies, Brawijaya University',
+        location: 'Malang, Indonesia'
+      },
+      {
+        title: 'Adjunct Professor',
+        organization: 'School of Management and Marketing, Taylor\'s University',
+        location: 'Subang Jaya, Malaysia'
+      },
+      {
+        title: 'Visiting Professor',
+        organization: 'International College, Krirk University',
+        location: 'Bangkok, Thailand'
+      },
+      {
+        title: 'Visiting Professor',
+        organization: 'Lyceum of the Philippines University',
+        location: 'Manila, Philippines'
+      },
+      {
+        title: 'Visiting Professor',
+        organization: 'Hospitality and Tourism Institute, Duy Tan University',
+        location: 'Danang, Vietnam'
+      },
+      {
+        title: 'Visiting Scholar',
+        organization: 'Faculty of Management Sciences, Phuket Rajabhat University',
+        location: 'Phuket, Thailand'
+      },
+      {
+        title: 'Professorial Chairholder',
+        organization: 'College of Business and College of Tourism, Hospitality and Transportation Management, Polytechnic University of the Philippines',
+        location: 'Philippines'
+      },
+      {
+        title: 'Visiting Fellow',
+        organization: 'Center for Tourism Research, Wakayama University',
+        location: 'Japan'
+      }
+    ];
 
   // Other sections data (placeholders)
   const otherSections = [
@@ -101,15 +116,16 @@ const Affiliations = () => {
       icon: BookOpen,
       description: 'Editorial positions and journal affiliations',
       items: [
-        { id: 1, title: 'Editor-in-Chief', organization: 'Journal of Responsible Tourism Management', period: '' },
+        { id: 1, title: 'Editor-in-Chief', organization: 'Journal of Responsible Tourism Management (JRTM)', period: '' },
         { id: 2, title: 'Editor-in-Chief', organization: 'Journal of Applied Structural Equation Modelling (SCOPUS Q1)', period: '' },
         { id: 3, title: 'Regional Editor', organization: 'International Journal of Tourism Research (SSCI Q1)', period: '' },
         { id: 4, title: 'Editor-in-Chief', organization: 'Asian Journal of Business Research (SCOPUS Q2)', period: '' },
         { id: 5, title: 'Editor-in-Chief', organization: 'Young Consumers (SCOPUS Q1)', period: '' },
-        { id: 6, title: 'Advisory Board Member', organization: 'Journal of Marketing Advances and Practices', period: '' },
-        { id: 7, title: 'Editorial Review Member', organization: 'Tourism Geographies, British Food Journal, Journal of Global Marketing, Journal of Consumer Behaviour', period: '' },
-        { id: 8, title: 'Editorial Advisory Board Member', organization: 'Journal of Responsible Production and Consumption', period: '' },
-        { id: 9, title: 'Publication Advisor', organization: 'BJSSH, University of Technology Sarawak (UTS); Journal of Agribusiness Marketing, Federal Agriculture Marketing Authority (FAMA); Sarawak Museum Journal, Sarawak Museum Department (SMD)', period: '' },
+        { id: 6, title: 'Editor-in-Chief', organization: 'Sustainability in Tourism and Hospitality', period: '' },
+        { id: 7, title: 'Advisory Board Member', organization: 'Journal of Marketing Advances and Practices', period: '' },
+        { id: 8, title: 'Editorial Review Member', organization: 'Tourism Geographies, British Food Journal, Journal of Global Marketing, Journal of Consumer Behaviour', period: '' },
+        { id: 9, title: 'Editorial Advisory Board Member', organization: 'Journal of Responsible Production and Consumption', period: '' },
+        { id: 10, title: 'Publication Advisor', organization: 'BJSSH, University of Technology Sarawak (UTS); Journal of Agribusiness Marketing, Federal Agriculture Marketing Authority (FAMA); Sarawak Museum Journal, Sarawak Museum Department (SMD)', period: '' },
       ]
     },
     {
