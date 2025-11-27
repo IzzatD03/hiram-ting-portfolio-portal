@@ -41,9 +41,9 @@ const Affiliations = () => {
         location: 'Ho Chi Minh City, Vietnam'
       },
       {
-        title: 'Adjunct Professor',
-        organization: 'Universitas Islam Bandung',
-        location: 'Indonesia'
+        title: 'Professorial Chairholder',
+        organization: 'College of Business and College of Tourism, Hospitality and Transportation Management, Polytechnic University of the Philippines',
+        location: 'Philippines'
       },
       {
         title: 'Adjunct Professor',
@@ -71,19 +71,9 @@ const Affiliations = () => {
         location: 'Manila, Philippines'
       },
       {
-        title: 'Visiting Professor',
-        organization: 'Hospitality and Tourism Institute, Duy Tan University',
-        location: 'Danang, Vietnam'
-      },
-      {
         title: 'Visiting Scholar',
         organization: 'Faculty of Management Sciences, Phuket Rajabhat University',
         location: 'Phuket, Thailand'
-      },
-      {
-        title: 'Professorial Chairholder',
-        organization: 'College of Business and College of Tourism, Hospitality and Transportation Management, Polytechnic University of the Philippines',
-        location: 'Philippines'
       },
       {
         title: 'Visiting Fellow',
