@@ -3,10 +3,12 @@ import Footer from "@/components/Footer";
 
 const JournalArticles = () => {
   const indexedArticles = [
-    `Cham, T.H., Aveziimetovch, S. K., Andoko, A., Wong, B. K. M., Lau, E., Paramita, W., Yide, L., **Ting, H.**, & Tan, K.-L. (2025), "Is Artificial intelligence (AI) the game-changer for business? Exploring current insights, opportunities, and potential research agenda", *Asian Journal of Business Research, 15(3)*, 166-172`,
-    `Soonsan, N., Pattanapokinsakul, K., Chunjan, K., & **Ting, H.** (2025), "Leveraging mega-event tourism: A review of Electric Daisy Carnival Thailand 2025 in Phuket", *Journal of Convention & Event Tourism, 15(1)*, 1–5`,
-    `Sangechumnong, A., Tham, A., **Ting, H.**, & Saengchanmong, M. (2025), "Animal influences for ecotourism? The case of Moo Deng", *Journal of Ecotourism*, 1–8`,
-    `Yu, C., Cheah, J. H., **Ting, H.**, & Liu, Y. (2025), "Enhancing Business Performance Through Integrated B2B Systems in China: A Dynamic Capabilities Perspective", *Journal of Business-to-Business Marketing*, 1–22`,
+    'Hsu, C. Y., Cheah, J. H., Chen, M. Y., & **Ting, H.** (2026), “Does image fit matter to residents’ attitudes and intentions toward sports events and host communities: the mediating role of quality of life”, Journal of Sport & Tourism, 1-6',
+    'Kittiprasan, K., **Ting, H.** , Kirdsiri, K., & Yankowski, A. (2025), “The Art of Salt Festival in Phetchaburi, Thailand: The nexus of nature and culture to sustain local identity”, Journal of Convention & Event Tourism, 1-8',
+    `Cham, T.H., Aveziimetovch, S. K., Andoko, A., Wong, B. K. M., Lau, E., Paramita, W., Yide, L., **Ting, H.**, & Tan, K.-L. (2025), "Is Artificial intelligence (AI) the game-changer for business? Exploring current insights, opportunities, and potential research agenda", Asian Journal of Business Research, 15(3), 166-172`,
+    `Soonsan, N., Pattanapokinsakul, K., Chunjan, K., & **Ting, H.** (2025), "Leveraging mega-event tourism: A review of Electric Daisy Carnival Thailand 2025 in Phuket", Journal of Convention & Event Tourism, 15(1), 1–5`,
+    `Sangechumnong, A., Tham, A., **Ting, H.**, & Saengchanmong, M. (2025), "Animal influences for ecotourism? The case of Moo Deng", Journal of Ecotourism, 1–8`,
+    `Yu, C., Cheah, J. H., **Ting, H.**, & Liu, Y. (2025), "Enhancing Business Performance Through Integrated B2B Systems in China: A Dynamic Capabilities Perspective", Journal of Business-to-Business Marketing, 1–22`,
     `Pattanapokinsakul, K., **Ting, H.**, Soonsan, N., & Sungthong, S. (2025), "The World of Peranakan Food Art Exhibition & Festival in Phuket: Festival review", Journal of Convention & Events Tourism, 1-5`,
     `**Ting, H.**, Memon, M. A., Ramayah, T., & Cheah, J. H. (2025), "Snowball Sampling: A Review and Guidelines for Survey Research", Asian Journal of Business Research, 15(1), 1-15`,
     `**Ting, H.**, Cheah, J. H., Tan, K., Tham, A., & Leong, Q. L. (2025), "Mobile Gamification's Impact on Tourism Visit Intention", International Journal of Tourism Research, 27(1)`,

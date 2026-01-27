@@ -66,7 +66,7 @@ const Index = () => {
               {/* Photo */}
               <div className="relative w-[260px] h-[300px] sm:w-[300px] sm:h-[340px] md:w-[320px] md:h-[360px] mx-auto flex items-center justify-center">
                 <img
-                  src="/lovable-uploads/dr_hiram.png"
+                  src="/lovable-uploads/dr_hiram_crop3.png"
                   alt="Dr. Hiram Ting"
                   className="object-cover rounded-2xl w-full h-full"
                 />
