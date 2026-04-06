@@ -34,7 +34,7 @@ const Index = () => {
               {/* <p className="text-red-500 font-medium">Scholar & Expert in Marketing</p> */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
                 <br />
-                Dr. Hiram Ting
+                Prof. Dr. Hiram Ting
               </h1>
 
               {/* Align logo to match the left edge of the heading */}
