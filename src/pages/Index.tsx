@@ -32,7 +32,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               {/* <p className="text-red-500 font-medium">Scholar & Expert in Marketing</p> */}
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight lg:text-6xl">
                 <br />
                 Prof. Dr. Hiram Ting
               </h1>
