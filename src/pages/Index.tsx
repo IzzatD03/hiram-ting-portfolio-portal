@@ -34,7 +34,7 @@ const Index = () => {
               {/* <p className="text-red-500 font-medium">Scholar & Expert in Marketing</p> */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
                 <br />
-                Dr. Hiram Ting
+                Prof. Dr. Hiram Ting
               </h1>
 
               {/* Align logo to match the left edge of the heading */}
@@ -108,53 +108,7 @@ const Index = () => {
             </div>
             <div className="space-y-6 text-gray-600 text-justify">
               <p className="leading-relaxed">
-                Dr. Hiram is the President of Responsible Borneo (REBORN) 
-                and Chairman of Sarawak Research Society (SRS). He works at 
-                Strategic Research Institute, Asia Pacific University of 
-                Technology and Innovation (APU) (Malaysia) as Senior 
-                Research Fellow. He is also attached to Van Hien University 
-                (Viet Nam), Brawijaya University (Indonesia), Wakayama 
-                University (Japan), Phuket Rajabhat University (Thailand), 
-                Sohar University (Oman), and Polytechnic University of the 
-                Philippines (Philippines) in different capacities.
-
-                <br/><br/>
-
-                He serves as Editor-in-Chief of Young Consumers (Scopus & 
-                JCR Q1), Journal of Applied Structural Equation Modeling 
-                (Scopus Q1), Journal of Responsible Tourism Management 
-                (JRTM), and Asian Journal of Business Research (Scopus Q2) as 
-                well as Regional Editor of International Journal of Tourism 
-                Research (Scopus & JCR Q1). He also serves as Editorial Board 
-                Member of other journals, such as Journal of Consumer 
-                Behaviour and Tourism Geographies. His papers are published 
-                in some of the reputable journals, including European Journal 
-                of Marketing, Tourism Management, International Journal of 
-                Contemporary Hospitality Management, Journal of Retailing 
-                and Consumer Services and Internet Research.
-
-                <br/><br/>
-
-                He has guest-edited more than 20 special issues on topics 
-                related to marketing, consumer behaviour, tourism and 
-                hospitality. His passion for youth and community as well as 
-                responsible tourism led him to found Southeast Asia Research 
-                Academy (SEARA) and International Centre for Responsible 
-                Tourism in Southeast Asia (ICRT-SEA). He is the first 
-                Ambassador of Emerald Publishing in East Asia, Special Advisor 
-                of the International Centre of Responsible Tourism Global 
-                (ICRT Global) from Southeast Asia, and Panel Member of 
-                Tourism Experts of the UN Tourism (formerly known as 
-                UNWTO). He is ranked among the World's Top 2% Scientists in 
-                Business, Management and Marketing by Stanford University 
-                and Elsevier. He is also acknowledged by Emerald Publishing 
-                for being the most cited scholar in Southeast Asia (ranked 
-                number 1) based on his publication in Emerald’s journals 
-                indexed in Scopus in 2019-2024.
-
-                <br/><br/>
-
-                He can be contacted at: hiramparousia@gmail.com.
+                Dr Hiram is the President of Responsible Borneo (REBORN) and Chairman of Sarawak Research Society. He is attached to Strategic Research Institute, Asia Pacific University of Technology and Innovation (APU) in Malaysia as Professor. He is also affiliated to several universities abroad at different capacities, including Van Hien University (Vietnam), Polytechnic University of the Philippines (Philippines), Hamburg University of Technology (Germany), Universitas Ciputra (Indonesia) and Phuket Rajabhat University (Thailand). He serves as the Editor-in-Chief of Young Consumers, Journal of Responsible Tourism Management, Asian Journal of Business Research and Sustainability in Tourism and Hospitality as well as Associate Editor of International Journal of Tourism Research. His papers are published in some of the reputable journals, including European Journal of Marketing, Tourism Management, International Journal of Contemporary Hospitality Management, Journal of Retailing and Consumer Services and Internet Research. His passion for youth and community as well as responsible tourism led him to found Southeast Asia Research Academy (SEARA) and International Centre for Responsible Tourism in Southeast Asia (ICRT-SEA). He is the first Ambassador of Emerald Publishing in East Asia and the first Malaysian to be included in the UNWTO Panel of Tourism Experts. He is ranked in the World's Top 2 Scientists in Business, Management and Marketing by Stanford University and Elsevier, and recognised as the most cited researcher in Southeast Asia based on Emerald's journals between 2019 and 2024. He can be contacted at: hiramparousia@gmail.com.
               </p>
             </div>
           </div>

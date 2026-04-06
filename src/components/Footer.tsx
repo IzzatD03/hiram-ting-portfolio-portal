@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Left Section - Title and Bio */}
             <div className="md:col-span-1">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4"> Dr. Hiram Ting</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4"> Prof. Dr. Hiram Ting</h2>
               <p className="text-sm text-gray-300 mb-6">
                 BE A MAN OF VALUE, REMAIN GRATEFUL, LIVE IN THE MOMENT & STAY PURPOSEFUL
               </p>
