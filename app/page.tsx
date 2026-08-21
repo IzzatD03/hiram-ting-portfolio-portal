@@ -15,7 +15,6 @@ import {
   getProfile,
   getSiteContent,
 } from "@/src/content/loaders";
-
 export default function HomePage() {
   const site = getSiteContent();
   const home = getHomeContent();
