@@ -1,0 +1,25 @@
+{
+  "page": {
+    "eyebrow": "Research",
+    "title": "Research Projects",
+    "description": { "text": "", "status": "approved" }
+  },
+  "sections": {
+    "programmes": "Core Projects",
+    "methods": "Research Methods",
+    "platforms": "Journals & Platforms"
+  },
+  "programmes": [
+    { "id": "responsible-marketing-consumerism", "title": "Responsible Marketing and Consumerism", "platform": "", "featured": true, "visible": true, "status": "published" },
+    { "id": "responsible-tourism-southeast-asia", "title": "Responsible Tourism in Southeast Asia", "platform": "", "featured": true, "visible": true, "status": "published" },
+    { "id": "responsible-food", "title": "Responsible Food Production, Consumption and Disposition", "platform": "British Food Journal", "featured": true, "visible": true, "status": "published" },
+    { "id": "consumer-online-offline", "title": "Consumer Online and Offline Behaviour", "platform": "Journal of Consumer Behaviour", "featured": true, "visible": true, "status": "published" },
+    { "id": "youth-generation-theories", "title": "Youth Behaviour through the Lens of Generation Theories", "platform": "Young Consumer", "featured": true, "visible": true, "status": "published" },
+    { "id": "cultural-heritage-tourism", "title": "Cultural and Heritage Tourism", "platform": "", "featured": true, "visible": true, "status": "published" }
+  ],
+  "methods": [
+    { "id": "survey-research", "title": "Survey research", "description": "Survey design, sampling and sample-size guidance", "visible": false, "status": "draft" },
+    { "id": "pls-sem", "title": "PLS-SEM", "description": "Structural equation modelling and related analysis", "visible": false, "status": "draft" },
+    { "id": "qualitative-inquiry", "title": "Qualitative inquiry", "description": "Qualitative and interpretive approaches", "visible": false, "status": "draft" }
+  ]
+}

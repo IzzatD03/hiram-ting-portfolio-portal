@@ -1,0 +1,10 @@
+id,date,displayDate,title,scope,url,featured,visible,status
+event-001,,,Responsible Youth Leader (RYL) Awards,international,,false,true,published
+event-002,,,Emerald Young Researcher Awards,international,,false,true,published
+event-003,,,International Conference on Responsible Tourism and Hospitality,international,,false,true,published
+event-004,,,World Tourism Day 2021: Sarawak Commitment to Responsible Tourism,international,,false,true,published
+event-005,,,International Symposium on Applied Structural Equation Modelling and Methodological Matters (SASEM),international,,false,true,published
+event-006,,,MAG (Marketing in Asia Group) Scholar Conference,international,,false,true,published
+event-007,,,Sarawak Youth Talent (SYT) 2021,domestic,,false,true,published
+event-008,,,REBORN: Experimental Tour in Bau District (Taiton),domestic,,false,true,published
+event-009,,,REBORN: Community Program in Bau District (Paku),domestic,,false,true,published

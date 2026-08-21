@@ -1,0 +1,26 @@
+{
+  "page": {
+    "eyebrow": "Curriculum Vitae",
+    "title": "Curriculum Vitae",
+    "description": { "text": "", "status": "approved" }
+  },
+  "document": {
+    "label": "Curriculum Vitae",
+    "path": "/uploads/documents/hiram-ting-cv.pdf",
+    "updatedAt": "",
+    "visible": true,
+    "status": "published"
+  },
+  "sections": {
+    "overviewEyebrow": "Overview",
+    "overviewTitle": "Portfolio at a Glance",
+    "recordsEyebrow": "Portfolio",
+    "recordsTitle": "Explore Portfolio Records",
+    "documentTitle": "Curriculum Vitae",
+    "profilesTitle": "Profiles"
+  },
+  "labels": {
+    "download": "Download PDF",
+    "open": "Open PDF"
+  }
+}

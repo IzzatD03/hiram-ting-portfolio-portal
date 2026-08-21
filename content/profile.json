@@ -1,0 +1,22 @@
+{
+  "page": {
+    "eyebrow": "Profile",
+    "title": "Profile",
+    "description": { "text": "", "status": "approved" }
+  },
+  "name": "Hiram Ting",
+  "prefix": "Prof. Dr.",
+  "displayName": "Hiram Ting",
+  "credentials": ["B.COM", "MBA", "PhD"],
+  "chineseName": "陈芳尧教授",
+  "profession": {
+    "text": "Professor · Researcher · Editor",
+    "status": "draft"
+  },
+  "biography": {
+    "text": "Dr Hiram is the President of Responsible Borneo (REBORN) and Chairman of Sarawak Research Society. He is Professor at the Strategic Research Institute, Asia Pacific University of Technology and Innovation (APU) in Malaysia. He is also attached to several universities abroad at different capacities, including Van Hien University (Vietnam), Polytechnic University of the Philippines (Philippines), Hamburg University of Technology (Germany), Universitas Ciputra (Indonesia) and Phuket Rajabhat University (Thailand). He serves as the Editor-in-Chief of Young Consumers, Journal of Responsible Tourism Management, Asian Journal of Business Research and Sustainability in Tourism and Hospitality as well as Associate Editor of International Journal of Tourism Research. His papers are published in some of the reputable journals, including European Journal of Marketing, Journal of Business Research, Tourism Management, International Journal of Contemporary Hospitality Management, Journal of Retailing and Consumer Services and Internet Research. His passion for youth and community as well as responsible tourism led him to found Southeast Asia Research Academy (SEARA) and International Centre for Responsible Tourism in Southeast Asia (ICRT-SEA). He is the first Ambassador of Emerald Publishing in East Asia and the first Malaysian to be included in the UNWTO Panel of Tourism Experts. He is ranked in the World's Top 2 Scientists in Business, Management and Marketing by Stanford University and Elsevier, and recognised as the most cited researcher in Southeast Asia based on Emerald's journals between 2019 and 2024.",
+    "status": "approved"
+  },
+  "portrait": "/uploads/profile/hiram-ting-main.png",
+  "portraitAlt": "Prof. Dr. Hiram Ting"
+}

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "eyebrow": { "text": "My Portfolio", "status": "approved" },
+    "summary": {
+      "text": "A Sarawakian and Global Citizen Driven by Passion, Value and Responsibility",
+      "status": "archived"
+    },
+    "rankings": [
+      {
+        "id": "ranking-4",
+        "image": "/uploads/ranking/ranking-4.jpg",
+        "url": "https://top5percentscientists.com/?query=Hiram+ting",
+        "alt": "Top 5 Percent Scientists ranking for Hiram Ting"
+      },
+      {
+        "id": "ranking-1",
+        "image": "/uploads/ranking/ranking-1.jpg",
+        "url": "https://topresearcherslist.com/Home/Profile/1033829",
+        "alt": "Top Researchers List ranking for Hiram Ting"
+      },
+      {
+        "id": "ranking-2",
+        "image": "/uploads/ranking/ranking-2.jpg",
+        "url": "https://scholargps.com/scholars/82605796167626/hiram-ting",
+        "alt": "ScholarGPS ranking for Hiram Ting"
+      },
+      {
+        "id": "ranking-3",
+        "image": "/uploads/ranking/ranking-3.jpg",
+        "url": "https://adscientificindex.com/h-index-ranking/?ft_search=Hiram+Ting&ft_search_type=name&ft_mode=all",
+        "alt": "AD Scientific Index ranking for Hiram Ting"
+      }
+    ],
+    "portraitNote": {
+      "title": { "text": "Marketing & tourism scholar", "status": "archived" },
+      "description": {
+        "text": "Consumer behaviour · Editorial leadership · Responsible tourism",
+        "status": "archived"
+      }
+    },
+    "portrait": "/uploads/profile/hiram-ting-main.png",
+    "brandImage": "/uploads/brand/reborn-logo-black.jpg"
+  },
+  "sections": {
+    "coreProjects": { "eyebrow": "Research", "title": "Core Projects" },
+    "publications": { "eyebrow": "Publications", "title": "Latest Publications" },
+    "affiliations": { "eyebrow": "Affiliations", "title": "Selected Affiliations" },
+    "team": { "eyebrow": "Research Team", "title": "Research Team" }
+  },
+  "actions": {
+    "research": "View Research",
+    "publications": "View Publications",
+    "profile": "View Full Profile",
+    "team": "Meet the Research Team"
+  },
+  "publicationPreview": "latest",
+  "previewLimits": {
+    "publications": 3,
+    "affiliations": 4
+  }
+}

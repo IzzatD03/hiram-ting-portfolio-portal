@@ -1,0 +1,419 @@
+{
+  "enabled": true,
+  "page": {
+    "eyebrow": "Research Team",
+    "title": "Research Team",
+    "description": {
+      "text": "Profiles of researchers collaborating across responsible tourism, consumer behaviour and community-focused projects.",
+      "status": "approved"
+    }
+  },
+  "emptyState": {
+    "text": "Research team profiles are being prepared and will be published after verification.",
+    "status": "approved"
+  },
+  "members": [
+    {
+      "id": "gao-ziyi-lawrence",
+      "title": "Dr.",
+      "name": "Gao Ziyi (Lawrence)",
+      "affiliation": "Yunnan University of Finance and Economics, Malaysia",
+      "areas": [
+        "Consumer behaviour",
+        "digital platforms",
+        "AI-enabled education",
+        "tourism marketing"
+      ],
+      "currentProjects": "Cultural Capital Mismatch and Reconstruction in New-type Urbanisation, Dual-group Cultural Capital Reconstruction in Yunnan’s Urbanisation, AI Occupational Substitution Risk and Service Consumption Suppression, AI-assisted Adult Education in Ethnic Regions",
+      "selectedPublications": [
+        "Gao, Z., Cheah, J.-H., Lim, X.-J., & Luo, X. (2024). Enhancing academic performance of business students using generative AI: An interactive-constructive-active-passive (ICAP) self-determination perspective. The International Journal of Management Education, 22(2), 100958. https://doi.org/10.1016/j.ijme.2024.100958",
+        "Gao, Z., Chang, J. Y.-S., Lim, X.-J., Cheah, J.-H., Cham, T.-H., & Sigala, M. (2025). What makes users recommend their mobile travel app? Findings from an innovation diffusion and social exchange theory perspective. International Journal of Tourism Research, 27(5), e70117. https://doi.org/10.1002/jtr.70117",
+        "Gao, Z., Cheah, J.-H., Lim, X.-J., Ng, S. I., Cham, T.-H., & Yee, C. L. (2024). Can travel apps improve tourists’ intentions? Investigating the drivers of Chinese Gen Y users’ experience. Journal of Vacation Marketing, 30(3), 505–534. https://doi.org/10.1177/13567667231152938",
+        "Gao, Z., Cheah, J.-H., Lim, X.-J., Liu, Y., & Morrison, A. M. (2024). Reinvestigating repurchase intentions for travel apps: A comparison of China’s various tiers of cities. Asia Pacific Journal of Tourism Research, 29(9), 1033–1062. https://doi.org/10.1080/10941665.2024.2358340",
+        "Yu, J., Gao, Z., Yong, S.-W., Yu, J., & Cheah, J.-H. (2026). First impressions for a new generation: The role of smart airports in building China’s reputation among young international travelers. Young Consumers, 27(4), 563–589. https://doi.org/10.1108/YC-09-2025-2754"
+      ],
+      "professionalUrl": "https://ibs.ynufe.edu.cn/info/1005/9831.htm",
+      "scholarUrl": "https://scholar.google.com/citations?user=qi9oa7IAAAAJ&hl=en",
+      "image": "/uploads/team/gao-ziyi-lawrence.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "he-dan",
+      "title": "Dr.",
+      "name": "He Dan",
+      "affiliation": "Asia Pacific University of Technology and Innovation, Malaysia",
+      "areas": [
+        "Health communications",
+        "digital health",
+        "well-being",
+        "health behavior"
+      ],
+      "currentProjects": "Audience-Centred Social Marketing in the Digital Age: A Framework for Sustainable Health Behaviour Change",
+      "selectedPublications": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Tqs35xsAAAAJ&citation_for_view=Tqs35xsAAAAJ:u5HHmVD_uO8C"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/%E4%B8%B9-%E4%BD%95-1268a420a?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "scholarUrl": "https://scholar.google.com/citations?user=Tqs35xsAAAAJ&hl=zh-CN",
+      "image": "/uploads/team/he-dan.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "alda-chairani",
+      "title": "Dr.",
+      "name": "Alda Chairani",
+      "affiliation": "(1) Trisakti Institute of Tourism, Indonesia, (2) Asia Pacific University of Technology and Innovation, Malaysia",
+      "areas": [
+        "Entrepreneurship",
+        "Tourism",
+        "Consumer Behavior",
+        "Marketing"
+      ],
+      "currentProjects": "(1) Youth Entrepreneurship in the Culinary Industry: A Systematic Review and a Multi-Level Integrative Framework, (2)From Physical Consumption to Digital Prosumption: An Autoethnography of Ambidexterity in Culinary Entrepreneurship",
+      "selectedPublications": [
+        "Chairani, A., Sakti, P.J., Pangkerego, E.R., Azizah, Z.N., Saputri, N.R.FH. (2025). The Influence of Micro-Influencers on Consumer Interest in Visiting Fine Dining Restaurant. Tourism Reserach Journal, 9 (2), 167-178. https://doi.org/10.30647/trj.v9i2.286",
+        "Chairani, A., Oktadiana, H., Rahmanita, M., Arafah, W. (2025). Practicing Low-Carbon Tourism: Empirical Research on Digital Consumer-Adapting Circular Behavior in the Indonesian Food Industry. In The Business of Low-Carbon Tourism (pp. 136-154). Routledge.",
+        "hairani, A., Aditya, M.K., Putri, J,M.Z., Carolita, G. (2026). Exploring the Impact of Social Influence and Digital Engagement on Brand Loyalty in the Culinary Industry: FOMO as intervening variable. KnE Social Sciences. 294-305. DOI 10.18502/kss.v10i29.20273"
+      ],
+      "professionalUrl": "https://id.linkedin.com/in/chairanialda",
+      "scholarUrl": "https://scholar.google.com/citations?user=LFwqDsgAAAAJ&hl=en&oi=ao",
+      "image": "/uploads/team/alda-chairani.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "gong-xiyun-carrie",
+      "title": "Dr.",
+      "name": "Gong Xiyun (Carrie)",
+      "affiliation": "Guangzhou College of Commerce, China and Asia Pacific University of Technology and Innovation, Malaysia",
+      "areas": [
+        "Consumer Behavior",
+        "E-commerce",
+        "AI",
+        "Well-being"
+      ],
+      "currentProjects": "Elderly well-being",
+      "selectedPublications": [
+        "Gong, X., Yee, C. L., Lee, S. Y., Cao, E. Y., & Saif, A. N. M. (2024). Knowledge mapping of impulsive buying behavior research: a visual analysis using CiteSpace. Humanities and Social Sciences Communications, 11(1), 967. link：https://www.nature.com/articles/s41599-024-03473-9",
+        "Gong, X., Leong, Y. C., Yiing, L. S., Saif, A. N. M., Islam, K. A., & Cao, E. Unveiling curiosity research in business and management: a bibliometric journey (1999–2023). https://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijbir",
+        "Ding, K., Gong, X. Y., Huang, T., & Choo, W. C. (2024). Recommend or not: A comparative analysis of customer reviews to uncover factors influencing explicit online recommendation behavior in peer-to-peer accommodation. European Research on Management and Business Economics, 30(1), 100236. link: https://www.sciencedirect.com/science/article/pii/S2444883423000232",
+        "Unveiling the enigma of blind box impulse buying curiosity: The moderating role of price consciousness link:https://www.cell.com/heliyon/fulltext/S2405-8440(24)16595-4",
+        "Innovation or Anxiety? Explaining Teachers’ Continuance Intention Toward Generative AI Tools. Social Behavior and Personality: an international journal"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/xiyun-gong-4b459310b/",
+      "scholarUrl": "https://scholar.google.com/citations?user=0De3MjIAAAAJ&hl=en",
+      "image": "/uploads/team/gong-xiyun-carrie.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "astri-dwi-andriani",
+      "title": "Dr.",
+      "name": "Astri Dwi Andriani",
+      "affiliation": "Putra Indonesia University, Indonesia and Asia Pacific University of Technology and Innovation, Malaysia",
+      "areas": [
+        "Health Communication",
+        "Tourism",
+        "Social Science",
+        "Artificial Intelligence"
+      ],
+      "currentProjects": "Destination Upgrade or Degrade? A Qualitative Multiple-Case Study on Tourism Villages through Youth Leadership and Responsible Tourism Management in Southeast Asia",
+      "selectedPublications": [
+        "Andriani, A. D., Himawan, I. S., & Bin Sharipudin, M. N. S. (2024). Sustainable Wellness Tourism in Indonesia (Case Study on Health Tourism Development at Hanara Wellbeing Center Bandung). Media Konservasi, 29(3), 435.",
+        "Andriani, A. D., Dwiwarman, D. A., & Sulaeman, P. (2025). THE ROLE OF THERAPEUTIC COMMUNICATION IN TOURISM SERVICE. NUST Business Review, 7(2).",
+        "Andriani, A. D., Mulyana, D., Dida, S., & Wahyudin, U. (2021). The role of healing environment in reducing the stress of patients with non-communicable disease. J. Nat. Sci. Biol. Med, 12, 300-306."
+      ],
+      "professionalUrl": "https://id.linkedin.com/in/dr-astri-dwi-andriani",
+      "scholarUrl": "https://scholar.google.com/citations?user=41NlRMgAAAAJ&hl=en",
+      "image": "/uploads/team/astri-dwi-andriani.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "xi-zhang",
+      "title": "Dr.",
+      "name": "Xi Zhang",
+      "affiliation": "Minjiang University, China",
+      "areas": [
+        "social media marketing",
+        "tourism marketing",
+        "storytelling marketing",
+        "tourist behaviour"
+      ],
+      "currentProjects": "A Study on Co-creation and Collaborative Governance of Fujian's Cultural and Tourism Image Narratives in the Context of Social Media",
+      "selectedPublications": [
+        "Zhang, X., & Ramayah, T. (2024). Solving the mystery of storytelling in destination marketing: A systematic review. Journal of Hospitality and Tourism Management, 59, 222-237.",
+        "Zhang Xi, Zhu Yuhua, Yang Xingyue & Zhang Xue. (2022). The Growth Mechanism of Entrepreneurial Resilience among Young Entrepreneurs: An Exploratory Analysis Based on Grounded Theory. Journal of Minjiang University, 43(6), 105-116. https://doi.org/10.19724/j.cnki.jmju.2022.06.014.",
+        "Zhang Xi, Lin Li & Liu Weixia. (2019). Research on the Impact of Characteristic Town Construction on Residents' Quality of Life - Investigation of the Construction of National-level Sports and Leisure Characteristic Towns in Fujian Province. Fujian Forum (Humanities and Social Sciences Edition), (9), 191-200."
+      ],
+      "professionalUrl": "",
+      "scholarUrl": "",
+      "image": "/uploads/team/xi-zhang.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "huynh-thi-kieu-linh",
+      "title": "Ms.",
+      "name": "Kieu Linh",
+      "affiliation": "Nguyen Tat Thanh University, Vietnam",
+      "areas": [
+        "Experiential Tourism and Tourism Education",
+        "Community-Based and Sustainable Tourism",
+        "Cultural Tourism Product Development",
+        "Generation Z Tourist Behavior and Experiential Learning"
+      ],
+      "currentProjects": "Cultural Communitization and Commodification of Craft Heritage in Tourism: Community Agency, Negotiated Authenticity, and Heritage Sustainability in Vietnam’s Traditional Craft Villages",
+      "selectedPublications": [
+        "Pham Minh Luan, Huynh Thi Kieu Linh, Cao Van Tung, & Pham-Ngoc Hieu. (2026). Investigation of revisit intention in glamping tourism: Integrating service quality, experience, and attitude within an extended TPB framework. In Tourism Development Products in Vietnam (pp. 499–521). Springer. https://doi.org/10.1007/978-981-95-8189-4_25",
+        "Community-based tourism in ethnic communities: A bibliometric analysis. (2025). In Proceedings of the 5th International Conference on Responsible Tourism and Hospitality (ICRTH 2025), Philippines.",
+        "Huynh Thi Kieu Linh. (2025). Current situation and solutions for developing distinctive tourism products based on local cultural identity in Tra Vinh Province. Vietnam Trade and Industry Review.",
+        "Huynh Thi Kieu Linh. (2025). Analysing Generation Z students’ demand for experiential tourism and proposing the development of experiential tourism products. Journal of Science and Technology, Nguyen Tat Thanh University.",
+        "Huynh Thi Kieu Linh. (2024). The role of experiential tourism through internship courses and proposed solutions to improve tourism education quality at Nguyen Tat Thanh University. Vietnam Journal of Corporate Finance.",
+        "Huynh Thi Kieu Linh. (2024). Solutions to enhance training quality and student support activities associated with experiential internships at the Faculty of Tourism, Nguyen Tat Thanh University. In Proceedings of Nguyen Tat Thanh University.",
+        "Huynh Thi Kieu Linh & Tran Ai Cam. (2022). Evaluating students’ demand for experiential tourism activities in the post-COVID-19 context. Journal of Educational Equipment: Education Management.",
+        "Huynh Thi Kieu Linh & Tran Ai Cam. (2021). An assessment of students’ participation in experiential tourism: A case study at Nguyen Tat Thanh University. Vietnam Trade and Industry Review."
+      ],
+      "professionalUrl": "https://orcid.org/my-orcid?orcid=0009-0001-2072-5901",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=list_works&hl=vi&user=3vSpoIIAAAAJ",
+      "image": "/uploads/team/huynh-thi-kieu-linh.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "yang-yuning",
+      "title": "Mr.",
+      "name": "Yang Yuning",
+      "affiliation": "Asia Pacific University of Technology and Innovation, Malaysia",
+      "areas": [
+        "Green supply chain management",
+        "Circular Economy",
+        "Environmental Management",
+        "Tourism Management"
+      ],
+      "currentProjects": "Green Supply Chain Management and Sustainable Performance",
+      "selectedPublications": [
+        "Li, L., & Yang, Y. (2025). The impact of the digital economy on carbon emissions with public health as a moderator: Evidence from the Yangtze River Economic Belt. In Proceedings of the 2025 4th International Conference on Public Management, Digital Economy and Internet Technology (ICPDI 2025) (pp. 250–260). Atlantis Press. https://doi.org/10.2991/978-2-38476-507-2_22"
+      ],
+      "professionalUrl": "",
+      "scholarUrl": "",
+      "image": "/uploads/team/yang-yuning.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "jasmine",
+      "title": "Ms.",
+      "name": "Jasmine",
+      "affiliation": "Asia Pacific University of Technology and Innovation, Malaysia",
+      "areas": [
+        "International Trade",
+        "Cross-border E-commerce",
+        "Digital Economy",
+        "Environment sustainability"
+      ],
+      "currentProjects": "The Impact of Digital Economy on Carbon Emission",
+      "selectedPublications": [
+        "Li, L., & Yang, Y. (2025). The impact of the digital economy on carbon emissions with public health as a moderator: Evidence from the Yangtze River Economic Belt. In Proceedings of the 2025 4th International Conference on Public Management, Digital Economy and Internet Technology (ICPDI 2025) (pp. 250–260). Atlantis Press. https://doi.org/10.2991/978-2-38476-507-2_22",
+        "Li, L. (2021). Evaluation of innovation effect in Jiangsu province under the background of innovation-driven development strategy. Jiangsu Commercial Forum, (1), 104-106.",
+        "Li, L. (2023). Exploration of online-offline blended teaching mode for international trade practice. Foreign Trade, (2), 107-109.",
+        "Li, L., & Xiao, Z. (2021). Intellectual property protection of Jiangsu's handicraft intangible cultural heritage under the innovation-driven strategy. Foreign Trade, (1), 93-96."
+      ],
+      "professionalUrl": "",
+      "scholarUrl": "",
+      "image": "/uploads/team/jasmine.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "ho-nhat-tien-tom",
+      "title": "Mr.",
+      "name": "Tom",
+      "affiliation": "Nguyen Tat Thanh University, Vietnam",
+      "areas": [
+        "Hospitality Management",
+        "Tourism",
+        "Human Resources",
+        "Artificial intelligence"
+      ],
+      "currentProjects": "The synergy mechanism of Human - AI competencies in the feeling economy: Evidence from the luxury hotels",
+      "selectedPublications": [
+        "Tiến, H. N. (2026). The role of resorts in destination brand positioning: A case study of Nha Trang–Cam Ranh, Khanh Hoa Province. Journal of Science and Technology, Nguyen Tat Thanh University, 9(6), 56–64. https://doi.org/10.55401/xd85sk16",
+        "Tiến, H. N. (2025). Health tourism in Nha Trang city: Potential and orientation for the development of specific tourism products. Journal of Science and Technology, Nguyen Tat Thanh University, 8(S1), 260–268. https://doi.org/10.55401/thjbh222",
+        "Tiến, H. N. (2025). Research on the prerequisite factors ensuring the feasibility of digital teaching in hotel management education from the perspectives of selected experts and learners. In Proceedings of the University-level Scientific Conference. Nguyen Tat Thanh University.",
+        "Tiến, H. N. (2024). Green transformation in the accommodation industry: Effective and sustainable steps. In Proceedings of the National Scientific Conference: Green Tourism Associated With Sustainable Development in the Context of Globalization.",
+        "Tiến, H. N. (2024). Training and human resource development needs in the hotel industry to meet current labor market requirements. Journal of Corporate Finance."
+      ],
+      "professionalUrl": "https://dlvnh.ntt.edu.vn/gioi-thieu/nhan-su-khoa/",
+      "scholarUrl": "https://scholar.google.com/citations?user=gtu545cAAAAJ&hl=vi&authuser=1",
+      "image": "/uploads/team/ho-nhat-tien-tom.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "soline",
+      "title": "Ms.",
+      "name": "Soline",
+      "affiliation": "RMIT University, Vietnam",
+      "areas": [
+        "Women entrepreneurship",
+        "entrepreneurial ecosystem",
+        "tourism",
+        "inclusive digital transformation"
+      ],
+      "currentProjects": "Optimizing Network Capability to Boost Women Tourism Entrepreneurs' Digital Performance in Vietnam",
+      "selectedPublications": [
+        "Hien, H. N., Pham, H. T., Anh, D. T. P., Quach, V. H., Le, T., & Dang-Pham, D. (2025). Smart Apps, Smart Destination Images, and Tourists’ Behavioral Intention Toward a Destination. In Information Systems Research in Vietnam, Volume 3 (pp. 103–121). https://doi.org/10.1007/978-981-97-9835-3_7",
+        "Nguyen, H. N., Thanh, L. N. N., Dang-Pham, D., Nguyen, D. Y. L., & Le, T. (2025). Antecedents of Hotel Contactless Technologies Adoption Intention and Actual Use Post-pandemic: An Empirical Study in Vietnam. In Information Systems Research in Vietnam, Volume 3 (pp. 33–47). https://doi.org/10.1007/978-981-97-9835-3_3",
+        "Nguyen, L. T. V., Nguyen, C., Le, T., Dang-Pham, D., Hoang, P., & Nayak, R. (2023). Digital Transformation and gender representation: A study of service advertisements in Vietnam. In Information Systems Research in Vietnam, Volume 2 (pp. 9–22). https://doi.org/10.1007/978-981-99-4792-8_2",
+        "Trang, P. H., Nam, V., Nguyen, H. L. D., Le, T., & Dang-Pham, D. (2024). Sustaining the Future of Tourism Logistics Through Digital Technologies: A Roadmap for Digital Transformation. In Transforming Logistics in a Developing Nation (pp. 387–413). https://doi.org/10.1007/978-981-97-7819-5_14"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/soline-linh-le/",
+      "scholarUrl": "https://scholar.google.com/citations?user=ztruyDEAAAAJ&hl=en",
+      "image": "/uploads/team/soline.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "phoebe-dau",
+      "title": "Ms.",
+      "name": "Phoebe Dau",
+      "affiliation": "Hoa Sen University, Vietnam and RMIT University, Vietnam",
+      "areas": [
+        "Mindfulness",
+        "Team Collaboration",
+        "Team Effectiveness",
+        "Event Management"
+      ],
+      "currentProjects": "Mindfulness in temporary event project teams, focussing on how mindfulness is understood and practiced and how it may shape team coordination and perceived effectiveness.",
+      "selectedPublications": [
+        "Leading with Artificial Empathy: A Systematic Review on Emotional AI, Hybrid Team Dynamics, Innovation in Project Environment (https://www.semanticscholar.org/paper/Leading-with-artificial-empathy%3A-a%C2%A0systematic-on-Nguyen-Dau/b3162dea7595cff15866e977f1bb4a6e373c2d07)"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/phoebe-dau-0a99aa62",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Leading+with+Artificial+Empathy%3A+A+Systematic+Review+on+Emotional+AI%2C+Hybrid+Team+Dynamics%2C+Innovation+in+Project+Environments%22",
+      "image": "/uploads/team/phoebe-dau.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "zinnia-wang",
+      "title": "Ms.",
+      "name": "Zinnia Wang",
+      "affiliation": "Universiti Putra Malaysia, Malaysia",
+      "areas": [
+        "Telehealth",
+        "Marketing",
+        "Service Quality",
+        "Social Media Analytics"
+      ],
+      "currentProjects": "Developing an AI-Era Telehealth Quality Framework through the Analysis of User Evaluations on Twitter",
+      "selectedPublications": [],
+      "professionalUrl": "",
+      "scholarUrl": "",
+      "image": "/uploads/team/zinnia-wang.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "liu-yihaomiao",
+      "title": "Ms.",
+      "name": "Liu Yihaomiao",
+      "affiliation": "Universiti Putra Malaysia, Malaysia",
+      "areas": [
+        "Management"
+      ],
+      "currentProjects": "The effect of management factors of green innovation on China‘s energy enterprises.",
+      "selectedPublications": [],
+      "professionalUrl": "",
+      "scholarUrl": "",
+      "image": "/uploads/team/liu-yihaomiao.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "deandra-vidyanata",
+      "title": "Ms.",
+      "name": "Deandra Vidyanata",
+      "affiliation": "Universitas Ciputra Surabaya, Indonesia",
+      "areas": [
+        "Consumer Behaviour",
+        "Human-Computer Interaction",
+        "Digital Marketing",
+        "Marketing Psychology"
+      ],
+      "currentProjects": "1. Consumer Resilience in Online Brand Communities 2. Consumer Responses to Brand Transgressions 3. Service Recovery Configurations in the Age of Intelligent Technologies",
+      "selectedPublications": [
+        "Vidyanata, D., Gosal, G. G., & Subagio, D. P. W. (2025). Can augmented reality influence consumer responses? An experiential hierarchy model perspective. Journal of Theoretical and Applied Management (Jurnal Manajemen Teori dan Terapan), 18(3), 329–344. https://doi.org/10.20473/jmtt.v18i3.80266 Link: https://e-journal.unair.ac.id/JMTT/article/view/80266",
+        "Vidyanata, D. (2025). From stream to cart: Investigating the role of parasocial interaction and local presence on the urge to buy impulsively in live-streaming shopping. Jurnal Aplikasi Manajemen, 23(2), 651–670. https://doi.org/10.21776/ub.jam.2025.023.2.15 Link: https://jurnaljam.ub.ac.id/index.php/jam/article/view/8840",
+        "Vidyanata, D. (2025). Exploring the dynamics of parasocial interactions with hosts and co-viewers in live-streaming shopping. Jurnal Dinamika Manajemen, 16(1), 58–76. https://doi.org/10.15294/jdm.v16i1.12364 Link: https://journal.unnes.ac.id/journals/jdm/article/view/12364",
+        "Vidyanata, D. (2022). Stimulus-Organism-Response (S-O-R) model application in examining the influence of social media marketing on purchase decisions in the healthcare industry: The mediating role of brand trust. Jurnal Aplikasi Manajemen, 20(3), 651–667. https://doi.org/10.21776/ub.jam.2022.020.03.14 Link: https://jurnaljam.ub.ac.id/index.php/jam/article/view/2821"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/deandra-v-433a2a79/",
+      "scholarUrl": "https://scholar.google.com/citations?user=yqxFv04AAAAJ&hl=en",
+      "image": "/uploads/team/deandra-vidyanata.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "susu",
+      "title": "Ms.",
+      "name": "SuSu",
+      "affiliation": "Asia Pacific University of Technology and Innovation, Malaysia",
+      "areas": [
+        "Social Media Communication",
+        "Consumer Behavior",
+        "New Energy Vehicle Marketing",
+        "Digital Business"
+      ],
+      "currentProjects": "Influencer and Content Characteristics on New Energy Vehicle Purchase Intention in China",
+      "selectedPublications": [],
+      "professionalUrl": "",
+      "scholarUrl": "",
+      "image": "/uploads/team/susu.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "mai",
+      "title": "Ms.",
+      "name": "Mai",
+      "affiliation": "Hoa Sen University, Vietnam",
+      "areas": [
+        "Healthy aging",
+        "Well-being",
+        "Artificial intelligence",
+        "Tourism & hospitality"
+      ],
+      "currentProjects": "Travel Motivations and Preferences of Senior Tourists in Vietnam: A Stratified Analysis",
+      "selectedPublications": [],
+      "professionalUrl": "https://www.linkedin.com/in/maikimthoa",
+      "scholarUrl": "",
+      "image": "/uploads/team/mai.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "khanh-ngo",
+      "title": "Ms.",
+      "name": "Khanh Ngo",
+      "affiliation": "Van Lang University, Vietnam",
+      "areas": [
+        "Community-based tourism",
+        "Responsible Tourism",
+        "Sustainability",
+        "Wellbeing in tourism"
+      ],
+      "currentProjects": "Project Culinary Tourism in Hue City, Vietnam",
+      "selectedPublications": [
+        "Yusrini, L., Sochea, N., Ashton, A. S., Ngo, T. D. K., Islam, R., Rahmawati, S., Ky, V., Andrea, L. T. H. N., Sharifah Nurafizah, S. A., & Ting, H. (2022). An outlook on responsible tourism in Southeast Asia. Journal of Responsible Tourism Management, 2(1). https://doi.org/10.47263/JRTM.02-01-06",
+        "Truong, X. T., Ngo, T. D. K., & Pham, N. M. (2026, July 11). Integrating the Technology Acceptance Model and Value–Belief–Norm Theory: The role of green feature perception in forming green tourism intention on smart tourism platforms [Paper presentation]. The International Conference on Economics and Technology Sustainability 2026 (ETS 2026), Binh Duong Economics and Technology University, Vietnam.  URL: https://betu.ktkt.edu.vn/conference/ETS2026/"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/khanh-ngo-b08b6412/",
+      "scholarUrl": "",
+      "image": "/uploads/team/khanh-ngo.png",
+      "visible": true,
+      "status": "published"
+    }
+  ]
+}

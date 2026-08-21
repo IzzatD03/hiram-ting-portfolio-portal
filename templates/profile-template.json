@@ -1,0 +1,16 @@
+{
+  "page": {
+    "eyebrow": "Profile",
+    "title": "Profile",
+    "description": { "text": "", "status": "approved" }
+  },
+  "name": "Hiram Ting",
+  "prefix": "Prof. Dr.",
+  "displayName": "Hiram Ting",
+  "credentials": ["B.COM", "MBA", "PhD"],
+  "chineseName": "陳芳堯教授",
+  "profession": { "text": "Proposed positioning", "status": "draft" },
+  "biography": { "text": "Proposed biography", "status": "draft" },
+  "portrait": "/uploads/profile/hiram-ting-main.png",
+  "portraitAlt": "Prof. Dr. Hiram Ting"
+}

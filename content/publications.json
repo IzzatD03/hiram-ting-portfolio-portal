@@ -1,0 +1,18 @@
+{
+  "page": {
+    "eyebrow": "Publications",
+    "title": "Publications",
+    "description": { "text": "", "status": "approved" }
+  },
+  "labels": {
+    "searchPlaceholder": "Search publications",
+    "allTypes": "All publication types",
+    "allYears": "All years",
+    "empty": "No publications found",
+    "sourceCitation": "Source citation"
+  },
+  "sections": {
+    "typesEyebrow": "Publication Index",
+    "typesTitle": "Records by Publication Type"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "page": {
+    "eyebrow": "Applied Research",
+    "title": "Industry Projects"
+  },
+  "items": [
+    {
+      "id": "feasibility-marketability-sustainability-amusement-park",
+      "title": "Feasibility, Marketability and Sustainability of the New Amusement Park",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "sarawak-museum-complex-visitation",
+      "title": "Perceptions towards and Intention to Visit Sarawak Museum Complex",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "sarawak-youth-talent-2021",
+      "title": "Sarawak Youth Talent (SYT2021)",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "responsible-youth-leader-2021",
+      "title": "Responsible Youth Leader (RYL) Program 2021",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "borneo-cultures-museum",
+      "title": "Borneo Cultures Museum",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "heritage-tourism-kuching-sarawak",
+      "title": "Heritage Tourism in Kuching and Sarawak",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "experiential-tourism-bau-green-gold-journey",
+      "title": "Experiential Tourism in Bau: The Green and Gold Journey",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "responsible-borneo-sarawak-commitment",
+      "title": "Responsible Borneo and Sarawak Commitment to Responsible Tourism",
+      "visible": true,
+      "status": "published"
+    }
+  ]
+}

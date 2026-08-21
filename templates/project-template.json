@@ -1,0 +1,13 @@
+{
+  "id": "project-example",
+  "title": "Project title",
+  "summary": { "text": "Proposed summary", "status": "draft" },
+  "category": "",
+  "role": "",
+  "partner": "",
+  "period": "",
+  "evidence": "",
+  "featured": false,
+  "visible": false,
+  "status": "draft"
+}

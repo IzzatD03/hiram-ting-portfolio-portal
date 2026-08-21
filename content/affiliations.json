@@ -1,0 +1,306 @@
+{
+  "page": {
+    "academicTitle": "Academic Institutions",
+    "professionalTitle": "Professional Roles",
+    "editorialTitle": "Editorial Leadership & Service",
+    "recognitionTitle": "Recognitions"
+  },
+  "academic": [
+    {
+      "id": "apu-professor",
+      "title": "Professor",
+      "organization": "Strategic Research Institute, Asia Pacific University of Technology and Innovation",
+      "location": "Kuala Lumpur, Malaysia",
+      "period": "",
+      "featured": true,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "van-hien-senior-professor",
+      "title": "Senior Professor",
+      "organization": "Faculty of Tourism, Van Hien University",
+      "location": "Ho Chi Minh City, Vietnam",
+      "period": "",
+      "featured": true,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "pup-chairholder",
+      "title": "Professorial Chairholder",
+      "organization": "College of Business and College of Tourism, Hospitality and Transportation Management, Polytechnic University of the Philippines",
+      "location": "Philippines",
+      "period": "",
+      "featured": true,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "lyceum-visiting-professor",
+      "title": "Visiting Professor",
+      "organization": "Lyceum of the Philippines University",
+      "location": "Manila, Philippines",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "phuket-visiting-scholar",
+      "title": "Visiting Scholar",
+      "organization": "Faculty of Management Sciences, Phuket Rajabhat University",
+      "location": "Phuket, Thailand",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "wakayama-visiting-fellow",
+      "title": "Visiting Fellow",
+      "organization": "Center for Tourism Research, Wakayama University",
+      "location": "Japan",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "ciputra-visiting-professor",
+      "title": "Visiting Professor",
+      "organization": "School of Business and Management, Universitas Ciputra",
+      "location": "Indonesia",
+      "period": "",
+      "url": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "tu-hamburg-guest-researcher",
+      "title": "Guest Researcher",
+      "organization": "Institute of Management and Decision Sciences, Hamburg University of Technology",
+      "location": "Germany",
+      "period": "",
+      "url": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    }
+  ],
+  "professional": [
+    {
+      "id": "reborn-president",
+      "title": "President",
+      "organization": "Responsible Borneo (REBORN)",
+      "location": "",
+      "period": "",
+      "url": "https://www.responsibleborneo.com/",
+      "featured": true,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "srs-chairman",
+      "title": "Chairman",
+      "organization": "Sarawak Research Society",
+      "location": "",
+      "period": "",
+      "url": "https://sarawakresearchsociety.org/",
+      "featured": true,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "emerald-ambassador",
+      "title": "Ambassador",
+      "organization": "Emerald Publishing in East Asia",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "seara-founder-director",
+      "title": "Founding Director",
+      "organization": "Southeast Asia Research Academy (SEARA)",
+      "location": "",
+      "period": "",
+      "url": "https://www.searanetwork.org/",
+      "featured": true,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "icrt-sea",
+      "title": "Founder",
+      "organization": "International Centre for Responsible Tourism in Southeast Asia (ICRT-SEA)",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "icrt-advisor",
+      "title": "Special Advisor",
+      "organization": "International Centre of Responsible Tourism Global (ICRT Global)",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "un-tourism-member",
+      "title": "Member",
+      "organization": "UN Tourism Panel of Tourism Experts",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "mag-vice-president",
+      "title": "Vice President",
+      "organization": "MAG Scholar",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    }
+  ],
+  "editorial": [
+    {
+      "id": "jrtm-eic",
+      "title": "Editor-in-Chief",
+      "organization": "Journal of Responsible Tourism Management (JRTM)",
+      "location": "",
+      "period": "",
+      "url": "https://www.emeraldgrouppublishing.com/journal/jrtm",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "jasem-eic",
+      "title": "Editor-in-Chief",
+      "organization": "Journal of Applied Structural Equation Modelling",
+      "location": "",
+      "period": "",
+      "url": "https://jasemjournal.com/",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "ijtr-title",
+      "title": "",
+      "organization": "International Journal of Tourism Research",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": false,
+      "status": "draft"
+    },
+    {
+      "id": "ajbr-eic",
+      "title": "Editor-in-Chief",
+      "organization": "Asian Journal of Business Research",
+      "location": "",
+      "period": "",
+      "url": "https://ajbr.co.nz/",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "young-consumers-eic",
+      "title": "Editor-in-Chief",
+      "organization": "Young Consumers",
+      "location": "",
+      "period": "",
+      "url": "https://www.emerald.com/yc",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "sth-eic",
+      "title": "Editor-in-Chief",
+      "organization": "Sustainability in Tourism and Hospitality",
+      "location": "",
+      "period": "",
+      "url": "https://www.emeraldgrouppublishing.com/journal/sth",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "jmap-advisory",
+      "title": "Advisory Board Member",
+      "organization": "Journal of Marketing Advances and Practices",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "editorial-review-member",
+      "title": "Editorial Review Member",
+      "organization": "Tourism Geographies; British Food Journal; Journal of Global Marketing; Journal of Consumer Behaviour",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "jrpc-advisory",
+      "title": "Editorial Advisory Board Member",
+      "organization": "Journal of Responsible Production and Consumption",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "publication-advisor",
+      "title": "Publication Advisor",
+      "organization": "BJSSH; Journal of Agribusiness Marketing; Sarawak Museum Journal",
+      "location": "",
+      "period": "",
+      "featured": false,
+      "visible": true,
+      "status": "published"
+    }
+  ],
+  "recognitions": [
+    {
+      "id": "top-two-percent-2025",
+      "title": "World's Top 2% Scientists (2025)",
+      "organization": "Business, Management and Marketing by Stanford University and Elsevier",
+      "location": "",
+      "period": "2025",
+      "featured": false,
+      "visible": false,
+      "status": "published"
+    },
+    {
+      "id": "top-two-percent-2023-2024",
+      "title": "World's Top 2% Scientists (2023, 2024)",
+      "organization": "Business, Management and Marketing by Stanford University and Elsevier",
+      "location": "",
+      "period": "2023–2024",
+      "featured": false,
+      "visible": false,
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "page": {
+    "eyebrow": "Research",
+    "title": "Core Projects"
+  },
+  "items": [
+    {
+      "id": "youth-and-generation-studies",
+      "title": "Youth and Generation Studies",
+      "links": [
+        {
+          "label": "Young Consumers: Insight and Ideas for Responsible Marketers (2026) 27 (3): 249–255.",
+          "url": "https://www.emerald.com/yc/article/27/3/249/1361301"
+        },
+        {
+          "label": "Young Consumers: Insight and Ideas for Responsible Marketers (2021) 22 (1): 1–9.",
+          "url": "https://www.emerald.com/yc/article/22/1/1/457299/Guest-editorial"
+        }
+      ],
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "stakeholder-behaviours",
+      "title": "Stakeholder Behaviours",
+      "links": [
+        {
+          "label": "Does salesperson polychronicity yield value-based selling initiatives in business-to-business markets? A multilevel moderation perspective",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0148296326002687"
+        },
+        {
+          "label": "Enhancing Business Performance Through Integrated B2B Systems in China: A Dynamic Capabilities Perspective",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/1051712X.2025.2537415"
+        }
+      ],
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "responsible-tourism",
+      "title": "Responsible Tourism",
+      "links": [
+        {
+          "label": "An Outlook on Responsible Tourism in Southeast Asia",
+          "url": "https://doi.org/10.47263/JRTM.02-01-06"
+        },
+        {
+          "label": "Responsible Tourism: A New Era of Responsibility?",
+          "url": "https://jrtm.org/wp-content/uploads/2021/11/1.-jrtm-paper-1-responsible-tourism_a-new-era-of-responsibility.pdf"
+        }
+      ],
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "research-methods",
+      "title": "Research Methods",
+      "links": [
+        {
+          "label": "Less is More? Review and Recommendations for Qualitative Sampling Strategy using the S.C.A.D.E Approach",
+          "url": "https://ajbr.co.nz/ajbr/ajbr230154.pdf"
+        },
+        {
+          "label": "Moderated Mediation Analysis Using SmartPLS: A Tutorial for Business Researchers",
+          "url": "https://jasemjournal.com/wp-content/uploads/2026/05/01-JASEM10101_Memonetal2026.pdf"
+        }
+      ],
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "organization-and-management",
+      "title": "Organization and Management",
+      "links": [
+        {
+          "label": "Driving Idea Exploration to Implementation: The Role of Transformational Leadership in Fostering Innovative Work Behavior",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/joe.70034"
+        },
+        {
+          "label": "Ethnic food consumption intention at the touring destination: The national and regional perspectives using multi-group analysis",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S026151771830270X"
+        }
+      ],
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "decision-and-communication",
+      "title": "Decision and Communication",
+      "links": [
+        {
+          "label": "The effect of selfie promotion and celebrity endorsed advertisement on decision-making processes: A model comparison",
+          "url": "https://www.emerald.com/intr/article/29/3/552/184655/The-effect-of-selfie-promotion-and-celebrity"
+        },
+        {
+          "label": "Predictive model assessment in PLS-SEM: guidelines for using PLSpredict",
+          "url": "https://www.emerald.com/ejm/article/53/11/2322/88924/Predictive-model-assessment-in-PLS-SEM-guidelines"
+        }
+      ],
+      "visible": true,
+      "status": "published"
+    }
+  ]
+}

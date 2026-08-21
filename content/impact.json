@@ -1,0 +1,17 @@
+{
+  "page": {
+    "eyebrow": "Projects & Engagement",
+    "title": "Projects & Engagement",
+    "description": {
+      "text": "Research-led projects, applied industry collaborations, academic engagement, and community initiatives.",
+      "status": "approved"
+    }
+  },
+  "sections": {
+    "coreProjects": "Core Projects",
+    "industryProjects": "Industry Projects",
+    "events": "Events",
+    "internationalEvents": "International Events",
+    "domesticEvents": "Domestic Events"
+  }
+}

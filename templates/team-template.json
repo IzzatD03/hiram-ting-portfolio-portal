@@ -1,0 +1,26 @@
+{
+  "enabled": false,
+  "page": {
+    "eyebrow": "Research Team",
+    "title": "Research Team",
+    "description": { "text": "", "status": "approved" }
+  },
+  "emptyState": {
+    "text": "Research team profiles are being prepared and will be published after verification.",
+    "status": "approved"
+  },
+  "members": [
+    {
+      "id": "member-example-001",
+      "name": "Member Name",
+      "role": "Researcher",
+      "affiliation": "",
+      "bio": { "text": "Proposed biodata", "status": "draft" },
+      "areas": [],
+      "projectIds": [],
+      "image": "",
+      "visible": false,
+      "status": "draft"
+    }
+  ]
+}

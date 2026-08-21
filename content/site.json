@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-08-10",
+  "identity": {
+    "shortName": "Hiram Ting",
+    "displayName": "Prof. Dr. Hiram Ting",
+    "portfolioLabel": "Portfolio"
+  },
+  "seo": {
+    "title": "Prof. Dr. Hiram Ting | Portfolio",
+    "description": "Portfolio of Prof. Dr. Hiram Ting.",
+    "canonicalUrl": "https://hiramting.nguyenminhtruc.site",
+    "keywords": [
+      "Hiram Ting",
+      "portfolio",
+      "research",
+      "publications"
+    ]
+  },
+  "contact": {
+    "email": "hiramparousia@gmail.com",
+    "phoneDisplay": "+6018-365 3472",
+    "phoneInternational": "+60183653472",
+    "address": "2nd-3rd Floor, Lot 153, Jalan Ban Hock, 93100 Kuching, Sarawak, Malaysia"
+  },
+  "socialLinks": [
+    {
+      "id": "google-scholar",
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com.my/citations?user=PvWwU8UAAAAJ&hl=en",
+      "identifier": "PvWwU8UAAAAJ",
+      "kind": "academic",
+      "logo": "/uploads/brand/profiles/google-scholar.svg",
+      "visible": true
+    },
+    {
+      "id": "researchgate",
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Hiram-Ting",
+      "identifier": "Hiram-Ting",
+      "kind": "academic",
+      "logo": "/uploads/brand/profiles/researchgate.png",
+      "visible": true,
+      "horizontal": true
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hiram-ting-%E9%99%B3%E8%8A%B3%E5%A0%AF-0a814536/",
+      "identifier": "",
+      "kind": "social",
+      "logo": "/uploads/brand/profiles/linkedin.png",
+      "visible": true
+    },
+    {
+      "id": "orcid",
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-1389-976X",
+      "identifier": "0000-0002-1389-976X",
+      "kind": "academic",
+      "logo": "/uploads/brand/profiles/orcid.webp",
+      "horizontal": true,
+      "visible": true
+    },
+    {
+      "id": "scopus",
+      "label": "Scopus",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=56312440400",
+      "identifier": "56312440400",
+      "kind": "academic",
+      "logo": "/uploads/brand/profiles/scopus.svg",
+      "horizontal": true,
+      "visible": true
+    },
+    {
+      "id": "web-of-science",
+      "label": "Web of Science",
+      "url": "https://www.webofscience.com/wos/author/record/P-3724-2015",
+      "identifier": "P-3724-2015",
+      "kind": "academic",
+      "logo": "/uploads/brand/profiles/web-of-science.svg",
+      "horizontal": true,
+      "visible": true
+    }
+  ],
+  "navigation": [
+    { "label": "Home", "href": "/", "visible": true },
+    { "label": "Profile", "href": "/profile", "visible": true },
+    { "label": "Research", "href": "/research", "visible": true },
+    { "label": "Publications", "href": "/publications", "visible": true },
+    { "label": "Projects & Engagement", "href": "/impact", "visible": false },
+    { "label": "Research Team", "href": "/team", "visible": true },
+    { "label": "Curriculum Vitae", "href": "/cv", "visible": false },
+    { "label": "News", "href": "/news", "visible": false }
+  ],
+  "contactCta": {
+    "eyebrow": { "text": "Contact", "status": "approved" },
+    "title": { "text": "Contact Prof. Dr. Hiram Ting", "status": "approved" },
+    "description": { "text": "", "status": "approved" },
+    "primaryLabel": "Email",
+    "secondaryLabel": "View CV"
+  },
+  "footer": {
+    "motto": {
+      "text": "BE A MAN OF VALUE, REMAIN GRATEFUL, LIVE IN THE MOMENT & STAY PURPOSEFUL",
+      "status": "approved"
+    }
+  }
+}
