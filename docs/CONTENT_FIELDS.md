@@ -30,6 +30,8 @@ Home statistics are not content fields. Their values are calculated from visible
 
 ## Publications CSV
 
+Keep records ordered from oldest to newest and append new publications at the end. Display order is independent of file order: the website sorts published records by year descending, then title ascending.
+
 | Field | Required | Notes |
 |---|---:|---|
 | `id` | yes | Unique and permanent. |

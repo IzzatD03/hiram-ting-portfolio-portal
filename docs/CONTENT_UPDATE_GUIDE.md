@@ -50,7 +50,7 @@ Edit `content/profile.json`. Keep new wording as `draft` until approved.
 
 ### Publication
 
-Edit `content/publications.csv` without changing the column names. Use a unique permanent `id`, an explicit `year` and `title`, and save as UTF-8 CSV. Runtime code never derives title or year from the citation.
+Edit `content/publications.csv` without changing the column names. Records are kept from oldest to newest so new publications can be appended at the end; the website sorts published records from newest to oldest at runtime. Use a unique permanent `id`, an explicit `year` and `title`, and save as UTF-8 CSV. Runtime code never derives title or year from the citation.
 
 ### Project
 

@@ -344,7 +344,26 @@ npm run preview
 
 This builds the application and launches an OpenNext/Cloudflare preview.
 
-### Deploy through Cloudflare
+### Automatic deploy through GitHub Actions
+
+Every push to `main` runs the CI/CD workflow in:
+
+```text
+.github/workflows/content-check.yml
+```
+
+The workflow installs dependencies, runs the full validation/build pipeline, and deploys the generated OpenNext application to Cloudflare Workers only if all checks pass.
+
+Configure these repository secrets under **GitHub → Settings → Secrets and variables → Actions**:
+
+```text
+CLOUDFLARE_API_TOKEN
+CLOUDFLARE_ACCOUNT_ID
+```
+
+The API token must be authorized to deploy the `hiramting-portfolio` Worker in the target Cloudflare account. Pull requests run validation only and never deploy.
+
+### Manual deploy through Cloudflare
 
 For an environment with the required Cloudflare authentication and permissions:
 
@@ -420,7 +439,7 @@ Commit changes
         ↓
 Push to main
         ↓
-Production deployment by authorized maintainer
+Automatic production deployment through GitHub Actions
         ↓
 Production smoke test
 ```

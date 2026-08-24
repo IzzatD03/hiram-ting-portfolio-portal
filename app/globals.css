@@ -548,8 +548,10 @@ p {
 
 .tag-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 4px;
   margin-top: 24px;
 }
 
@@ -563,9 +565,14 @@ p {
 }
 
 .tag {
-  padding: 6px 10px;
+  width: fit-content;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-bottom: 6px;
   background: var(--ivory);
   color: var(--slate);
+  text-transform: capitalize;
+  white-space: normal;
 }
 
 .badge {
@@ -972,7 +979,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 54px;
+  height: 72px;
   width: 246px;
   max-width: 100%;
   padding: 0;
@@ -1012,12 +1019,8 @@ p {
 }
 
 .hero-ranking-img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 46px;
   object-fit: contain;
+  object-position: center;
 }
 
 @keyframes rankingWaterfallEnter {
@@ -2335,6 +2338,7 @@ p {
   margin-top: 20px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
+  margin-bottom: 18px;
 }
 
 .member-section-label {
@@ -3694,17 +3698,13 @@ p {
   }
 
   .hero-ranking-frame {
-    height: 46px;
+    height: 64px;
     width: 204px;
     padding: 0;
   }
 
   .hero-ranking-card {
     padding: 0;
-  }
-
-  .hero-ranking-img {
-    max-height: 38px;
   }
 
   .hero-summary {
@@ -3992,16 +3992,12 @@ p {
   }
 
   .hero-ranking-frame {
-    height: 44px;
+    height: 60px;
     width: 190px;
   }
 
   .hero-ranking-card {
     padding: 2px 4px;
-  }
-
-  .hero-ranking-img {
-    max-height: 36px;
   }
 
   .hero-portrait {

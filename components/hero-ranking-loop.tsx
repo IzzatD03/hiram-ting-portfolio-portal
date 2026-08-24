@@ -103,8 +103,7 @@ export function HeroRankingLoop({ rankings }: HeroRankingLoopProps) {
           <Image
             src={currentRanking.image}
             alt={currentRanking.alt}
-            width={300}
-            height={80}
+            fill
             className="hero-ranking-img"
             sizes="(max-width: 640px) 200px, 280px"
             priority

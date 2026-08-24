@@ -35,8 +35,22 @@ export function generateMetadata(): Metadata {
       siteName: site.identity.displayName,
       title: site.seo.title,
       description: site.seo.description,
+      url: site.seo.canonicalUrl,
+      images: [
+        {
+          url: "uploads/og/capture-home.png",
+          width: 1200,
+          height: 630,
+          alt: "Prof. Dr. Hiram Ting",
+        },
+      ],
     },
-    twitter: { card: "summary", title: site.seo.title, description: site.seo.description },
+    twitter: { 
+      card: "summary", 
+      title: site.seo.title, 
+      description: site.seo.description,
+      images: ["uploads/og/capture-home.png"] 
+    },
   };
 }
 
