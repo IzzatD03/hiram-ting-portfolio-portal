@@ -71,7 +71,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* 02 Short Bio */}
       {bioText && (
         <section className="home-bio-section" aria-labelledby="home-bio-heading">
