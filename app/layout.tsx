@@ -38,18 +38,20 @@ export function generateMetadata(): Metadata {
       url: site.seo.canonicalUrl,
       images: [
         {
-          url: "uploads/og/capture-home.png",
+          url: "https://hiramting.com/uploads/og/capture-home.png",
+          secureUrl: "https://hiramting.com/uploads/og/capture-home.png",
           width: 1200,
           height: 630,
-          alt: "Prof. Dr. Hiram Ting",
+          type: "image/png",
+          alt: "Prof. Dr. Hiram Ting | Portfolio",
         },
       ],
     },
     twitter: { 
-      card: "summary", 
+      card: "summary_large_image", 
       title: site.seo.title, 
       description: site.seo.description,
-      images: ["uploads/og/capture-home.png"] 
+      images: ["https://hiramting.com/uploads/og/capture-home.png"],
     },
   };
 }
