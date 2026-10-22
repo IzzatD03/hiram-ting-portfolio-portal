@@ -14,6 +14,30 @@
   },
   "members": [
     {
+      "id": "lenny-yusrini",
+      "title": "Assoc. Prof. Dr.",
+      "name": "Lenny Yusrini",
+      "affiliation": "Universitas Asa Indonesia",
+      "areas": [
+        "Ecotourism",
+        "Responsible tourism",
+        "Tourism villages",
+        "Biodiversity and cultural heritage conservation"
+      ],
+      "currentProjects": "Biodiversity tourism; community visual narratives in ecotourism cultural landscapes; narratives of place",
+      "selectedPublications": [
+        "Darmadi, R., Yusrini, L., & Eviana, N. (2026). From Data to Decisions: A Smart Evaluation System for Coastal Ecotourism Destination Management. International Journal on Advanced Science, Engineering and Information Technology, 16(2), 592–599. https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/21554",
+        "Ting, H., Yusrini, L., Tan, K.-L., Anh, T. Le, & Nhem, S. (2026). Tourism diplomacy: responsible pathways for peace, people, and partnership. Journal of Responsible Tourism Management, 6(1), 2–10. https://doi.org/10.1108/JRTM-01-2026-009",
+        "Yusrini, L., Sochea, N., Ashton, A. S., Ngo, T. D. K., Islam, R., Rahmawati, S., Ky, V., Nhi, A. L. T. H., Annuar, S. N. S., & Ting, H. (2022). An Outlook on Responsible Tourism in Southeast Asia. Journal of Responsible Tourism Management, 2(1), 58–78. https://doi.org/10.47263/jrtm.02-01-06",
+        "Yusrini L, Sunkar A, Santosa Y, Rachmawati E, Maeenuddin M, Eviana N (2026;). Biodiversity tourism in production-conservation landscapes: stakeholder perspectives on high conservation value areas in oil palm plantations. Worldwide Hospitality and Tourism Themes, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/WHATT-06-2026-0212"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/lennyy-0911/",
+      "scholarUrl": "https://scholar.google.com/citations?user=-RLm7bQAAAAJ&hl=en",
+      "image": "/uploads/team/lenny-yusrini.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
       "id": "gao-ziyi-lawrence",
       "title": "Dr.",
       "name": "Gao Ziyi (Lawrence)",
@@ -70,11 +94,11 @@
         "Consumer Behavior",
         "Marketing"
       ],
-      "currentProjects": "(1) Youth Entrepreneurship in the Culinary Industry: A Systematic Review and a Multi-Level Integrative Framework, (2)From Physical Consumption to Digital Prosumption: An Autoethnography of Ambidexterity in Culinary Entrepreneurship",
+      "currentProjects": "(1) Youth Entrepreneurship in the Culinary Industry: A Systematic Review and a Multi-Level Integrative Framework, (2) From Physical Consumption to Digital Prosumption: An Autoethnography of Ambidexterity in Culinary Entrepreneurship",
       "selectedPublications": [
-        "Chairani, A., Sakti, P.J., Pangkerego, E.R., Azizah, Z.N., Saputri, N.R.FH. (2025). The Influence of Micro-Influencers on Consumer Interest in Visiting Fine Dining Restaurant. Tourism Reserach Journal, 9 (2), 167-178. https://doi.org/10.30647/trj.v9i2.286",
+        "Chairani, A., Sakti, P.J., Pangkerego, E.R., Azizah, Z.N., Saputri, N.R.FH. (2025). The Influence of Micro-Influencers on Consumer Interest in Visiting Fine Dining Restaurant. Tourism Research Journal, 9 (2), 167-178. https://doi.org/10.30647/trj.v9i2.286",
         "Chairani, A., Oktadiana, H., Rahmanita, M., Arafah, W. (2025). Practicing Low-Carbon Tourism: Empirical Research on Digital Consumer-Adapting Circular Behavior in the Indonesian Food Industry. In The Business of Low-Carbon Tourism (pp. 136-154). Routledge.",
-        "hairani, A., Aditya, M.K., Putri, J,M.Z., Carolita, G. (2026). Exploring the Impact of Social Influence and Digital Engagement on Brand Loyalty in the Culinary Industry: FOMO as intervening variable. KnE Social Sciences. 294-305. DOI 10.18502/kss.v10i29.20273"
+        "Chairani, A., Aditya, M.K., Putri, J,M.Z., Carolita, G. (2026). Exploring the Impact of Social Influence and Digital Engagement on Brand Loyalty in the Culinary Industry: FOMO as intervening variable. KnE Social Sciences. 294-305. DOI 10.18502/kss.v10i29.20273"
       ],
       "professionalUrl": "https://id.linkedin.com/in/chairanialda",
       "scholarUrl": "https://scholar.google.com/citations?user=LFwqDsgAAAAJ&hl=en&oi=ao",
@@ -153,6 +177,54 @@
       "visible": true,
       "status": "published"
     },
+
+    {
+      "id": "abby",
+      "title": "Dr.",
+      "name": "Abby",
+      "affiliation": "Yunnan Agricultural University",
+      "areas": [
+        "Digital marketing",
+        "Supply chain management",
+        "E-commerce",
+        "Coffee industry"
+      ],
+      "currentProjects": "Yunnan International Science and Technology Envoy Recognition (Individual)",
+      "selectedPublications": [
+        "Huang, Q. (2025). Bibliometric analysis on SCF adoption: A key to growth for cross-border e-commerce SMEs. Journal of Information Systems Engineering and Management.",
+        "Huang, Q., Fu, C., & Qi, J. (2023). Circulation models of fresh agricultural products under the e-commerce environment (in Chinese).",
+        "Fu, C., Huang, Q., & Sun, W. (2022). Development path of Yunnan’s coffee industry chain (in Chinese)."
+      ],
+      "professionalUrl": "",
+      "scholarUrl": "",
+      "image": "/uploads/team/abby.png",
+      "visible": true,
+      "status": "published"
+    },
+
+    {
+      "id": "shanshan",
+      "title": "Dr.",
+      "name": "Shanshan",
+      "affiliation": "Guangxi Arts University",
+      "areas": [
+        "Intercultural communication",
+        "Cross-cultural adaptation",
+        "Culture theory and management",
+        "Social media"
+      ],
+      "currentProjects": "Research on cross-border cultural communication paths between China and ASEAN countries; future research in culture theory and management",
+      "selectedPublications": [
+        "Bi, S. (2024). Academic adaptation of Chinese postgraduate students in Malaysia. Jurnal Komunikasi: Malaysian Journal of Communication, 40(2), 395–412. https://doi.org/10.17576/JKMJC-2024-4002-23",
+        "Bi, S., & Ahmad, A. L. (2023). A systematic review of Chinese students’ academic adaptation overseas. Malaysian Journal of Social Sciences and Humanities (MJSSH), 8(10), e002558. https://doi.org/10.47405/mjssh.v8i10.2558",
+        "Bi, S., & Ahmad, A. L. (2023). Social media use and cross-cultural adaptation of Chinese students overseas: A systematic review. e-BANGI, 21(4), 218–230. https://doi.org/10.17576/ebangi.2024.2104.18"
+      ],
+      "professionalUrl": "https://www.linkedin.com/in/%E7%8F%8A%E7%8F%8A-%E9%97%AD-8916bb433/",
+      "scholarUrl": "https://scholar.google.com/citations?user=kAIIGjcAAAAJ&hl=en",
+      "image": "/uploads/team/shanshan.png",
+      "visible": true,
+      "status": "published"
+    },
     {
       "id": "huynh-thi-kieu-linh",
       "title": "Ms.",
@@ -211,7 +283,7 @@
         "International Trade",
         "Cross-border E-commerce",
         "Digital Economy",
-        "Environment sustainability"
+        "Environmental sustainability"
       ],
       "currentProjects": "The Impact of Digital Economy on Carbon Emission",
       "selectedPublications": [
@@ -323,7 +395,7 @@
       "areas": [
         "Management"
       ],
-      "currentProjects": "The effect of management factors of green innovation on China‘s energy enterprises.",
+      "currentProjects": "The effect of management factors of green innovation on China’s energy enterprises.",
       "selectedPublications": [],
       "professionalUrl": "",
       "scholarUrl": "",
@@ -412,6 +484,86 @@
       "professionalUrl": "https://www.linkedin.com/in/khanh-ngo-b08b6412/",
       "scholarUrl": "",
       "image": "/uploads/team/khanh-ngo.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "xuan-ni",
+      "title": "Ms.",
+      "name": "Xuan Ni",
+      "affiliation": "Gingko College of Hospitality Management",
+      "areas": [
+        "Tourism marketing",
+        "Consumer behavior",
+        "Digital marketing",
+        "Social media"
+      ],
+      "currentProjects": "The influence of tourism short-form videos on destination visit intention",
+      "selectedPublications": [],
+      "professionalUrl": "https://cgx.gingkoc.edu.cn/curriculum.aspx?cid=38&pid=20",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=list_works&hl=en&user=-QeyQhEAAAAJ",
+      "image": "/uploads/team/xuan-ni.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "xie-chengfan-finn",
+      "title": "Mr.",
+      "name": "Xie ChengFan (Finn)",
+      "affiliation": "Asia Pacific University of Technology & Innovation",
+      "areas": [
+        "AI",
+        "University innovation",
+        "Digital investment",
+        "Supply chain"
+      ],
+      "currentProjects": "Disciplining AI Washing: Public Regulatory Scrutiny, Disclosure Accountability, and the AI Rhetoric–Capability Gap; Resource Constrained AI Implementation: Financial Constraints, Technological Endowments, and Corporate AI Talk Action Gaps; When AI Talk Outruns Internal Investment: Resource-Boundary Ambiguity and External Digital-Infrastructure Exposure",
+      "selectedPublications": [],
+      "professionalUrl": "https://www.linkedin.com/in/chengfan-xie-089b8a360/",
+      "scholarUrl": "",
+      "image": "/uploads/team/xie-chengfan.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "may-lee",
+      "title": "Ms.",
+      "name": "May Lee",
+      "affiliation": "UNIMAS",
+      "areas": [
+        "Cross-cultural communication",
+        "International students' adjustment",
+        "International business",
+        "Literature"
+      ],
+      "currentProjects": "Media and university students' academic adjustment",
+      "selectedPublications": [
+        "Li, C. (2024). Feminist consciousness in tanci novels by women writers of the Ming and Qing dynasties under the influence of the zeitgeist: A review of Tanci novels by women writers of the Ming and Qing dynasties and Ming–Qing society. Science-Technology & Publication, (8), 122.",
+        "Li, C. (2019). An ecological interpretation of the growth of Quoyle, the protagonist of The Shipping News. Journal of Hefei University (Comprehensive Edition), 36(4), 98–101.",
+        "Li, C. (2019). From confusion to rebirth: A study of the growth process of Quoyle, the protagonist of The Shipping News. Journal of Tongling University, 18(3), 83–87."
+      ],
+      "professionalUrl": "https://www.aisu.edu.cn/xfyyxy/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1171&wbnewsid=4349",
+      "scholarUrl": "",
+      "image": "/uploads/team/may-lee.png",
+      "visible": true,
+      "status": "published"
+    },
+    {
+      "id": "aditya-wang",
+      "title": "Mr.",
+      "name": "Aditya Wang",
+      "affiliation": "Universitas Ciputra Surabaya",
+      "areas": [
+        "Digital marketing",
+        "Marketing ethics",
+        "Scarcity marketing",
+        "Business analytics"
+      ],
+      "currentProjects": "The role of innovation capability, organizational culture, and organizational agility in enhancing family business performance",
+      "selectedPublications": [],
+      "professionalUrl": "https://www.ciputra.ac.id/ibmic/sasannaditya-wang/",
+      "scholarUrl": "",
+      "image": "/uploads/team/aditya-wang.jpg",
       "visible": true,
       "status": "published"
     }

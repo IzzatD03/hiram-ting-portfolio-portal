@@ -14,7 +14,7 @@
     { "id": "responsible-tourism-southeast-asia", "title": "Responsible Tourism in Southeast Asia", "platform": "", "featured": true, "visible": true, "status": "published" },
     { "id": "responsible-food", "title": "Responsible Food Production, Consumption and Disposition", "platform": "British Food Journal", "featured": true, "visible": true, "status": "published" },
     { "id": "consumer-online-offline", "title": "Consumer Online and Offline Behaviour", "platform": "Journal of Consumer Behaviour", "featured": true, "visible": true, "status": "published" },
-    { "id": "youth-generation-theories", "title": "Youth Behaviour through the Lens of Generation Theories", "platform": "Young Consumer", "featured": true, "visible": true, "status": "published" },
+    { "id": "youth-generation-theories", "title": "Youth Behaviour through the Lens of Generation Theories", "platform": "Young Consumers", "featured": true, "visible": true, "status": "published" },
     { "id": "cultural-heritage-tourism", "title": "Cultural and Heritage Tourism", "platform": "", "featured": true, "visible": true, "status": "published" }
   ],
   "methods": [

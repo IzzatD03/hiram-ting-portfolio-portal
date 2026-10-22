@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { DM_Sans, Libre_Baskerville, Noto_Serif_SC, Source_Serif_4 } from "next/font/google";
+import { DM_Sans, Libre_Baskerville, Source_Serif_4 } from "next/font/google";
+import localFont from "next/font/local";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { SiteMotion } from "@/components/site-motion";
@@ -14,9 +15,10 @@ const display = Source_Serif_4({
   variable: "--font-display",
   display: "swap",
 });
-const cjk = Noto_Serif_SC({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+// This local subset covers the Chinese display name in content/profile.json.
+const cjk = localFont({
+  src: "./fonts/noto-serif-sc-name.woff2",
+  weight: "400",
   variable: "--font-cjk",
   display: "swap",
 });
