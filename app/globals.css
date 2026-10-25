@@ -4528,3 +4528,9 @@ p {
     hyphens: none;
   }
 }
+
+.member-rank-tag {
+  display: inline-block;
+  margin: 0.25rem 0 0.5rem;
+  width: fit-content;
+}

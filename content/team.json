@@ -39,8 +39,9 @@
     },
     {
       "id": "gao-ziyi-lawrence",
-      "title": "Dr.",
+      "title": "Assoc. Prof. Dr.",
       "name": "Gao Ziyi (Lawrence)",
+      "academicRank": "Associate Professor",
       "affiliation": "Yunnan University of Finance and Economics, Malaysia",
       "areas": [
         "Consumer behaviour",
@@ -85,8 +86,9 @@
     },
     {
       "id": "alda-chairani",
-      "title": "Dr.",
+      "title": "Assis. Prof. Dr.",
       "name": "Alda Chairani",
+      "academicRank": "Assistant Professor",
       "affiliation": "(1) Trisakti Institute of Tourism, Indonesia, (2) Asia Pacific University of Technology and Innovation, Malaysia",
       "areas": [
         "Entrepreneurship",
@@ -133,8 +135,9 @@
     },
     {
       "id": "astri-dwi-andriani",
-      "title": "Dr.",
+      "title": "Assoc. Prof. Dr.",
       "name": "Astri Dwi Andriani",
+      "academicRank": "Associate Professor",
       "affiliation": "Putra Indonesia University, Indonesia and Asia Pacific University of Technology and Innovation, Malaysia",
       "areas": [
         "Health Communication",
@@ -156,8 +159,9 @@
     },
     {
       "id": "xi-zhang",
-      "title": "Dr.",
+      "title": "Assoc. Prof. Dr.",
       "name": "Xi Zhang",
+      "academicRank": "Associate Professor",
       "affiliation": "Minjiang University, China",
       "areas": [
         "social media marketing",
@@ -430,7 +434,7 @@
     {
       "id": "susu",
       "title": "Ms.",
-      "name": "SuSu",
+      "name": "Su Yiwen",
       "affiliation": "Asia Pacific University of Technology and Innovation, Malaysia",
       "areas": [
         "Social Media Communication",
@@ -449,7 +453,7 @@
     {
       "id": "mai",
       "title": "Ms.",
-      "name": "Mai",
+      "name": "Mai Kim Thoa",
       "affiliation": "Hoa Sen University, Vietnam",
       "areas": [
         "Healthy aging",
@@ -529,6 +533,7 @@
       "id": "may-lee",
       "title": "Ms.",
       "name": "May Lee",
+      "academicRank": "Associate Professor",
       "affiliation": "UNIMAS",
       "areas": [
         "Cross-cultural communication",

@@ -136,6 +136,7 @@ export function ResearchTeamShowcase({
                 <div className="team-showcase-meta">
                   <span className="team-showcase-tag">Team Member {currentFormatted}</span>
                   <h3 className="team-showcase-name">{displayName}</h3>
+                  {member.academicRank && <span className="tag member-rank-tag">{member.academicRank}</span>}
                   {member.affiliation && (
                     <p className="team-showcase-affiliation">{member.affiliation}</p>
                   )}

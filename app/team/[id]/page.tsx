@@ -157,6 +157,7 @@ export default async function MemberProfilePage({ params }: MemberPageProps) {
             </Link>
           </div>
           <h1>{displayName}</h1>
+          {member.academicRank && <span className="tag member-rank-tag">{member.academicRank}</span>}
           {member.affiliation && (
             <p className="lead member-profile-hero-affiliation">{member.affiliation}</p>
           )}
@@ -196,6 +197,7 @@ export default async function MemberProfilePage({ params }: MemberPageProps) {
                   <div className="member-role">{member.role}</div>
                 )}
                 <h2 className="member-profile-card-name">{displayName}</h2>
+                {member.academicRank && <span className="tag member-rank-tag">{member.academicRank}</span>}
                 {member.affiliation && (
                   <p className="member-profile-card-affiliation">{member.affiliation}</p>
                 )}

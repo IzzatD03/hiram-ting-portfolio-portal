@@ -48,6 +48,7 @@ export default function TeamPage() {
                     <div className="member-content">
                       {member.role && <div className="member-role">{member.role}</div>}
                       <h2>{displayName}</h2>
+                      {member.academicRank && <span className="tag member-rank-tag">{member.academicRank}</span>}
                       {member.affiliation && (
                         <p className="member-affiliation">{member.affiliation}</p>
                       )}
